@@ -1,4 +1,5 @@
 import json
+import os
 
 from fastapi import WebSocketDisconnect
 
@@ -23,6 +24,10 @@ sessions = {}
 def get_retriever():
     global retriever, retriever_error
 
+    if os.getenv("ENABLE_PRODUCT_RETRIEVER", "").strip() != "1":
+        retriever_error = "Product retriever disabled."
+        return None
+
     if retriever is not None or retriever_error is not None:
         return retriever
 
@@ -38,9 +43,9 @@ def get_retriever():
 def create_session():
     session = Session()
     welcome = (
-        "Chao ban! Toi la tro ly tu van kombucha. "
-        "Hay cho toi biet trang thai tinh than, tinh trang suc khoe, "
-        "tien su benh va khau vi cua ban de toi goi y san pham phu hop."
+        "Chào bạn! Tôi là trợ lý tư vấn kombucha. "
+        "Hãy cho tôi biết trạng thái tinh thần, tình trạng sức khỏe, "
+        "tiền sử bệnh và khẩu vị của bạn để tôi gợi ý sản phẩm phù hợp."
     )
     session.history.append({"role": "assistant", "content": welcome})
     return session, welcome
@@ -75,15 +80,15 @@ def process_user_message(session, user_msg):
             if not products:
                 products = active_retriever.search(query_text, threshold=0.0, top_k=3)
                 intro = (
-                    "Rat tiec, khong co san pham nao dat do phu hop 60%. "
-                    "Duoi day la mot so goi y co do tuong dong thap hon de ban tham khao:\n\n"
+                    "Rất tiếc, không có sản phẩm nào đạt độ phù hợp 60%. "
+                    "Dưới đây là một số gợi ý có độ tương đồng thấp hơn để bạn tham khảo:\n\n"
                 )
             else:
-                intro = "Duoi day la cac san pham phu hop voi ban:\n\n"
+                intro = "Dưới đây là các sản phẩm phù hợp với bạn:\n\n"
         else:
             intro = (
-                "He thong tu van san pham dang tam thoi chua tai duoc bo truy hoi noi bo. "
-                "Toi se tra loi o muc co ban dua tren thong tin hien co.\n\n"
+                "Hệ thống tư vấn sản phẩm đang tạm thời chưa tải được bộ truy hồi nội bộ. "
+                "Tôi sẽ trả lời ở mức cơ bản dựa trên thông tin hiện có.\n\n"
             )
 
         rec_text = generate_recommendation_response(features, products)
@@ -98,7 +103,7 @@ def process_user_message(session, user_msg):
 
     question = result.get(
         "question",
-        "Ban co the chia se them ve trang thai tinh than, suc khoe, tien su benh va khau vi cua ban khong?",
+        "Bạn có thể chia sẻ thêm về trạng thái tinh thần, sức khỏe, tiền sử bệnh và khẩu vị của bạn không?",
     )
     session.history.append({"role": "assistant", "content": question})
     return {"type": "question", "content": question}
@@ -148,7 +153,7 @@ async def handle_websocket(websocket):
             await _send_event(
                 websocket,
                 "error",
-                "Server dang gap loi khi xu ly yeu cau. Ban thu gui lai tin nhan sau it phut.",
+                "Server đang gặp lỗi khi xử lý yêu cầu. Bạn thử gửi lại tin nhắn sau ít phút.",
             )
         except Exception:
             pass

@@ -1,49 +1,60 @@
 from .llm_client import get_chat_model, get_llm_client
 
 
+def _product_value(product, key, default="Không có thông tin"):
+    return product.get(key) or default
+
+
 def _build_fallback_response(products):
     if not products:
-        return "Hiá»‡n tÃ´i chÆ°a tÃ¬m Ä‘Æ°á»£c sáº£n pháº©m phÃ¹ há»£p rÃµ rÃ ng. Báº¡n hÃ£y mÃ´ táº£ chi tiáº¿t hÆ¡n vá» tÃ¬nh tráº¡ng sá»©c khá»e, tiá»n sá»­ bá»‡nh vÃ  kháº©u vá»‹ Ä‘á»ƒ tÃ´i gá»£i Ã½ chÃ­nh xÃ¡c hÆ¡n."
+        return (
+            "Hiện tôi chưa tải được bộ gợi ý sản phẩm chi tiết, nhưng với thông tin bạn chia sẻ, "
+            "bạn có thể ưu tiên kombucha vị thanh mát, chua ngọt nhẹ như chanh sả, hibiscus, "
+            "trái cây nhiệt đới hoặc việt quất. Nếu bạn có bệnh dạ dày, tiểu đường, huyết áp "
+            "hoặc dị ứng thành phần nào, hãy kiểm tra nhãn sản phẩm trước khi dùng."
+        )
 
     lines = []
     for product in products[:3]:
-        warning = product.get("Chá»‘ng chá»‰ Ä‘á»‹nh vá»›i") or "KhÃ´ng cÃ³ thÃ´ng tin"
+        warning = _product_value(product, "Chống chỉ định với")
         lines.append(
-            f"- {product['TÃªn']}: {product['MÃ´ táº£']} "
-            f"(HÆ°Æ¡ng vá»‹: {product['HÆ°Æ¡ng vá»‹']}, Äá»™ phÃ¹ há»£p: {product['Äá»™ tÆ°Æ¡ng Ä‘á»“ng']}%). "
-            f"LÆ°u Ã½ chá»‘ng chá»‰ Ä‘á»‹nh: {warning}."
+            f"- {_product_value(product, 'Tên')}: {_product_value(product, 'Mô tả')} "
+            f"(Hương vị: {_product_value(product, 'Hương vị')}, "
+            f"độ phù hợp: {_product_value(product, 'Độ tương đồng', 0)}%). "
+            f"Lưu ý chống chỉ định: {warning}."
         )
-    return "Báº¡n cÃ³ thá»ƒ tham kháº£o cÃ¡c sáº£n pháº©m sau:\n" + "\n".join(lines)
+    return "Bạn có thể tham khảo các sản phẩm sau:\n" + "\n".join(lines)
 
 
 def generate_recommendation_response(features, products):
-    """
-    features: dict vá»›i cÃ¡c key: mental_state, health_condition, medical_history, taste
-    products: list of dict (tá»« retriever.search)
-    """
-    products_info = "\n".join([
-        f"- {p['TÃªn']}: {p['MÃ´ táº£']} (HÆ°Æ¡ng vá»‹: {p['HÆ°Æ¡ng vá»‹']}, Äá»™ phÃ¹ há»£p: {p['Äá»™ tÆ°Æ¡ng Ä‘á»“ng']}%)\n  Chá»‘ng chá»‰ Ä‘á»‹nh: {p['Chá»‘ng chá»‰ Ä‘á»‹nh vá»›i']}"
-        for p in products
-    ])
+    products_info = "\n".join(
+        [
+            f"- {_product_value(p, 'Tên')}: {_product_value(p, 'Mô tả')} "
+            f"(Hương vị: {_product_value(p, 'Hương vị')}, "
+            f"độ phù hợp: {_product_value(p, 'Độ tương đồng', 0)}%)\n"
+            f"  Chống chỉ định: {_product_value(p, 'Chống chỉ định với')}"
+            for p in products
+        ]
+    )
 
-    prompt = f"""Báº¡n lÃ  trá»£ lÃ½ tÆ° váº¥n kombucha. Dá»±a trÃªn thÃ´ng tin ngÆ°á»i dÃ¹ng:
-- Tráº¡ng thÃ¡i tinh tháº§n: {', '.join(features.get('mental_state', []))}
-- TÃ¬nh tráº¡ng sá»©c khá»e: {', '.join(features.get('health_condition', []))}
-- Tiá»n sá»­ bá»‡nh ná»n: {', '.join(features.get('medical_history', []))}
-- Kháº©u vá»‹: {', '.join(features.get('taste', []))}
+    prompt = f"""Bạn là trợ lý tư vấn kombucha. Dựa trên thông tin người dùng:
+- Trạng thái tinh thần: {', '.join(features.get('mental_state', []))}
+- Tình trạng sức khỏe: {', '.join(features.get('health_condition', []))}
+- Tiền sử bệnh nền hoặc dị ứng: {', '.join(features.get('medical_history', []))}
+- Khẩu vị: {', '.join(features.get('taste', []))}
 
-VÃ  danh sÃ¡ch sáº£n pháº©m phÃ¹ há»£p (Ä‘á»™ tÆ°Æ¡ng Ä‘á»“ng >= 60%):
-{products_info}
+Danh sách sản phẩm phù hợp:
+{products_info or "Không có danh sách sản phẩm chi tiết."}
 
-HÃ£y giá»›i thiá»‡u 2-3 sáº£n pháº©m gá»£i Ã½. Giáº£i thÃ­ch lÃ½ do vÃ¬ sao sáº£n pháº©m Ä‘Ã³ phÃ¹ há»£p vá»›i tÃ¬nh tráº¡ng cá»§a ngÆ°á»i dÃ¹ng. Náº¿u cÃ³ chá»‘ng chá»‰ Ä‘á»‹nh, hÃ£y nháº¯c nhá»Ÿ nháº¹ nhÃ ng. Tráº£ lá»i báº±ng tiáº¿ng Viá»‡t, giá»ng vÄƒn thÃ¢n thiá»‡n, tá»± nhiÃªn.
+Hãy giới thiệu 2-3 sản phẩm hoặc nhóm vị kombucha phù hợp. Giải thích ngắn gọn lý do, nhắc nhẹ về chống chỉ định nếu có. Trả lời bằng tiếng Việt tự nhiên, thân thiện.
 """
     try:
         response = get_llm_client().chat.completions.create(
             model=get_chat_model(),
             messages=[{"role": "user", "content": prompt}],
-            temperature=0.7
+            temperature=0.7,
         )
         return response.choices[0].message.content or _build_fallback_response(products)
-    except Exception as e:
-        print(f"Error in generate_recommendation_response: {e}")
+    except Exception as exc:
+        print(f"Error in generate_recommendation_response: {exc}")
         return _build_fallback_response(products)

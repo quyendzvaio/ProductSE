@@ -1,7 +1,7 @@
 import React from 'react';
 import ProductCardSquare from './ProductCard';
 import { useCountdown } from '../../hooks/useCountdown';
-import anh3 from '../../assets/GMlogo2.png';
+import anh3 from '../../assets/6.png';
 const HotDealsSection = () => {
   const [days, hours, minutes, seconds] = useCountdown('2026-12-31T00:00:00');
 

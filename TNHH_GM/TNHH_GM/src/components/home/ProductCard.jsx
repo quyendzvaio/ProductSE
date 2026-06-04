@@ -1,5 +1,5 @@
 import React from 'react';
-import anh2 from '../../assets/GMlogo1.png';
+import anh2 from '../../assets/2.png';
 
 
 // Component ProductCard cập nhật để vuông vức hơn giống mẫu

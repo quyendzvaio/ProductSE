@@ -6,16 +6,16 @@ import HotDealsSection from '../components/home/HotDealsSection';
 import DiscountBanner from '../components/home/DiscountBanner';
 import LatestNewsSection from '../components/home/LatestNewsSection';
 import HeroSection from '../components/home/HeroSection';
-import anh1 from '../assets/GMlogo.png';
-import anh2 from '../assets/GMlogo1.png';
-import anh3 from '../assets/GMlogo2.png';
-import anh4 from '../assets/GMlogo3.png';
-import anh5 from '../assets/GMlogo4.png';
-import anh6 from '../assets/hero.png';
-import anh7 from '../assets/chatavt.png';
-import anh8 from '../assets/chatavt2.png';
-import anh9 from '../assets/chatavt3.png';
-import anh10 from '../assets/BannerBig.png';
+import anh1 from '../assets/1.png';
+import anh2 from '../assets/2.png';
+import anh3 from '../assets/3.png';
+import anh4 from '../assets/4.png';
+import anh5 from '../assets/5.png';
+import anh6 from '../assets/6.png';
+import anh7 from '../assets/7.png';
+import anh8 from '../assets/8.png';
+import anh9 from '../assets/9.png';
+import anh10 from '../assets/10.png';
 import ProductCard from '../components/home/ProductCard';
 
 const HomePage = () => {
