@@ -1,8 +1,4 @@
-import faiss
 import pickle
-import numpy as np
-from sentence_transformers import SentenceTransformer
-import torch
 from .config import MODELS_DIR
 
 class ProductRetriever:
@@ -10,6 +6,15 @@ class ProductRetriever:
                  index_path=MODELS_DIR / "product_index.faiss",
                  metadata_path=MODELS_DIR / "product_metadata.pkl",
                  model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"):
+        try:
+            import faiss
+            import torch
+            from sentence_transformers import SentenceTransformer
+        except ImportError as exc:
+            raise RuntimeError(
+                "Product retrieval dependencies are not installed in this deployment."
+            ) from exc
+
         self.index = faiss.read_index(str(index_path))
         with open(metadata_path, "rb") as f:
             self.df = pickle.load(f)
@@ -18,6 +23,8 @@ class ProductRetriever:
         self.model = SentenceTransformer(model_name, device=device)
     
     def search(self, query_text, threshold=0.6, top_k=5):
+        import numpy as np
+
         # Tạo embedding cho câu hỏi
         query_emb = self.model.encode([query_text], convert_to_numpy=True)[0]
         query_emb = query_emb / np.linalg.norm(query_emb)   # chuẩn hóa
