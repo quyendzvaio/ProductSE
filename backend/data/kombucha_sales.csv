@@ -1,0 +1,421 @@
+﻿tên sản phẩm,tháng,tên chi nhánh,doanh thu,quy mô khách hàng trong tháng,tồn kho,dự kiến nhập,giá bán,khuyến mãi
+Kombucha Chanh Sả,01/2024,Cần Thơ,6300000,126,100,140,50000,10%
+Kombucha Chanh Sả,01/2024,Hà Nội,8100000,162,130,170,50000,10%
+Kombucha Chanh Sả,01/2024,Hải Phòng,6800000,136,110,150,50000,0%
+Kombucha Chanh Sả,01/2024,Nha Trang,5800000,116,95,135,50000,0%
+Kombucha Chanh Sả,01/2024,TP.HCM,8700000,174,140,180,50000,0%
+Kombucha Chanh Sả,01/2024,Đà Lạt,5300000,106,90,130,50000,5%
+Kombucha Chanh Sả,01/2024,Đà Nẵng,7300000,146,120,160,50000,5%
+Kombucha Gừng Nghệ,01/2024,Cần Thơ,7900000,158,120,160,50000,0%
+Kombucha Gừng Nghệ,01/2024,Hà Nội,12500000,250,180,220,50000,10%
+Kombucha Gừng Nghệ,01/2024,Hải Phòng,8600000,172,130,170,50000,10%
+Kombucha Gừng Nghệ,01/2024,Nha Trang,7400000,148,110,150,50000,5%
+Kombucha Gừng Nghệ,01/2024,TP.HCM,11800000,236,170,210,50000,5%
+Kombucha Gừng Nghệ,01/2024,Đà Lạt,6800000,136,100,140,50000,0%
+Kombucha Gừng Nghệ,01/2024,Đà Nẵng,9200000,184,140,180,50000,0%
+Kombucha Hoa Hibiscus,01/2024,Cần Thơ,4100000,82,70,100,50000,0%
+Kombucha Hoa Hibiscus,01/2024,Hà Nội,5400000,108,90,120,50000,0%
+Kombucha Hoa Hibiscus,01/2024,Hải Phòng,4400000,88,75,105,50000,10%
+Kombucha Hoa Hibiscus,01/2024,Nha Trang,3800000,76,65,95,50000,5%
+Kombucha Hoa Hibiscus,01/2024,TP.HCM,5900000,118,100,130,50000,5%
+Kombucha Hoa Hibiscus,01/2024,Đà Lạt,3500000,70,60,90,50000,0%
+Kombucha Hoa Hibiscus,01/2024,Đà Nẵng,4800000,96,80,110,50000,0%
+Kombucha Lá Trà Xanh Matcha,01/2024,Cần Thơ,5500000,110,90,120,50000,5%
+Kombucha Lá Trà Xanh Matcha,01/2024,Hà Nội,7200000,144,120,150,50000,5%
+Kombucha Lá Trà Xanh Matcha,01/2024,Hải Phòng,5900000,118,100,130,50000,0%
+Kombucha Lá Trà Xanh Matcha,01/2024,Nha Trang,5100000,102,85,115,50000,0%
+Kombucha Lá Trà Xanh Matcha,01/2024,TP.HCM,7800000,156,130,160,50000,0%
+Kombucha Lá Trà Xanh Matcha,01/2024,Đà Lạt,4700000,94,80,110,50000,10%
+Kombucha Lá Trà Xanh Matcha,01/2024,Đà Nẵng,6400000,128,110,140,50000,10%
+Kombucha Mật Ong Quế,01/2024,Cần Thơ,5000000,100,85,115,50000,0%
+Kombucha Mật Ong Quế,01/2024,Hà Nội,6500000,130,110,140,50000,0%
+Kombucha Mật Ong Quế,01/2024,Hải Phòng,5400000,108,90,120,50000,5%
+Kombucha Mật Ong Quế,01/2024,Nha Trang,4600000,92,80,110,50000,10%
+Kombucha Mật Ong Quế,01/2024,TP.HCM,7000000,140,115,145,50000,10%
+Kombucha Mật Ong Quế,01/2024,Đà Lạt,4200000,84,75,105,50000,0%
+Kombucha Mật Ong Quế,01/2024,Đà Nẵng,5900000,118,100,130,50000,0%
+Kombucha Nghệ Mật Ong,01/2024,Cần Thơ,4400000,88,80,115,50000,0%
+Kombucha Nghệ Mật Ong,01/2024,Hà Nội,5800000,116,95,130,50000,0%
+Kombucha Nghệ Mật Ong,01/2024,Hải Phòng,4800000,96,85,120,50000,5%
+Kombucha Nghệ Mật Ong,01/2024,Nha Trang,4100000,82,75,110,50000,10%
+Kombucha Nghệ Mật Ong,01/2024,TP.HCM,6200000,124,100,135,50000,10%
+Kombucha Nghệ Mật Ong,01/2024,Đà Lạt,3700000,74,70,105,50000,0%
+Kombucha Nghệ Mật Ong,01/2024,Đà Nẵng,5200000,104,90,125,50000,0%
+Kombucha Trà Oolong Mộc Hương,01/2024,Cần Thơ,8700000,174,150,200,50000,10%
+Kombucha Trà Oolong Mộc Hương,01/2024,Hà Nội,11200000,224,190,240,50000,10%
+Kombucha Trà Oolong Mộc Hương,01/2024,Hải Phòng,9400000,188,160,210,50000,0%
+Kombucha Trà Oolong Mộc Hương,01/2024,Nha Trang,8100000,162,140,190,50000,0%
+Kombucha Trà Oolong Mộc Hương,01/2024,TP.HCM,11900000,238,200,250,50000,0%
+Kombucha Trà Oolong Mộc Hương,01/2024,Đà Lạt,7500000,150,130,180,50000,5%
+Kombucha Trà Oolong Mộc Hương,01/2024,Đà Nẵng,10000000,200,170,220,50000,5%
+Kombucha Trái Cây Nhiệt Đới,01/2024,Cần Thơ,7100000,142,110,160,50000,10%
+Kombucha Trái Cây Nhiệt Đới,01/2024,Hà Nội,9800000,196,150,200,50000,0%
+Kombucha Trái Cây Nhiệt Đới,01/2024,Hải Phòng,7700000,154,120,170,50000,0%
+Kombucha Trái Cây Nhiệt Đới,01/2024,Nha Trang,6600000,132,100,150,50000,0%
+Kombucha Trái Cây Nhiệt Đới,01/2024,TP.HCM,10500000,210,165,215,50000,10%
+Kombucha Trái Cây Nhiệt Đới,01/2024,Đà Lạt,6100000,122,90,140,50000,5%
+Kombucha Trái Cây Nhiệt Đới,01/2024,Đà Nẵng,8200000,164,130,180,50000,5%
+Kombucha Táo Quế,01/2024,Cần Thơ,7400000,148,120,170,50000,0%
+Kombucha Táo Quế,01/2024,Hà Nội,9700000,194,160,210,50000,0%
+Kombucha Táo Quế,01/2024,Hải Phòng,8000000,160,130,180,50000,10%
+Kombucha Táo Quế,01/2024,Nha Trang,6900000,138,110,160,50000,5%
+Kombucha Táo Quế,01/2024,TP.HCM,10400000,208,170,220,50000,5%
+Kombucha Táo Quế,01/2024,Đà Lạt,6400000,128,100,150,50000,0%
+Kombucha Táo Quế,01/2024,Đà Nẵng,8600000,172,140,190,50000,0%
+Kombucha Việt Quất,01/2024,Cần Thơ,3300000,66,55,85,50000,5%
+Kombucha Việt Quất,01/2024,Hà Nội,4300000,86,70,100,50000,5%
+Kombucha Việt Quất,01/2024,Hải Phòng,3600000,72,60,90,50000,0%
+Kombucha Việt Quất,01/2024,Nha Trang,3000000,60,50,80,50000,0%
+Kombucha Việt Quất,01/2024,TP.HCM,4700000,94,75,105,50000,0%
+Kombucha Việt Quất,01/2024,Đà Lạt,2700000,54,45,75,50000,10%
+Kombucha Việt Quất,01/2024,Đà Nẵng,3900000,78,65,95,50000,10%
+Kombucha Chanh Sả,02/2024,Cần Thơ,7100000,142,95,175,50000,5%
+Kombucha Chanh Sả,02/2024,Hà Nội,9250000,185,123,222,50000,10%
+Kombucha Chanh Sả,02/2024,Hải Phòng,8100000,162,100,214,50000,15%
+Kombucha Chanh Sả,02/2024,Nha Trang,5850000,117,97,149,50000,0%
+Kombucha Chanh Sả,02/2024,TP.HCM,9200000,184,141,213,50000,5%
+Kombucha Chanh Sả,02/2024,Đà Lạt,5750000,115,86,172,50000,10%
+Kombucha Chanh Sả,02/2024,Đà Nẵng,8150000,163,114,219,50000,15%
+Kombucha Gừng Nghệ,02/2024,Cần Thơ,9250000,185,113,214,50000,10%
+Kombucha Gừng Nghệ,02/2024,Hà Nội,14400000,288,173,294,50000,15%
+Kombucha Gừng Nghệ,02/2024,Hải Phòng,9050000,181,134,190,50000,0%
+Kombucha Gừng Nghệ,02/2024,Nha Trang,8000000,160,110,182,50000,5%
+Kombucha Gừng Nghệ,02/2024,TP.HCM,12950000,259,169,263,50000,10%
+Kombucha Gừng Nghệ,02/2024,Đà Lạt,7800000,156,93,200,50000,15%
+Kombucha Gừng Nghệ,02/2024,Đà Nẵng,9200000,184,148,195,50000,0%
+Kombucha Hoa Hibiscus,02/2024,Cần Thơ,5600000,112,58,163,50000,15%
+Kombucha Hoa Hibiscus,02/2024,Hà Nội,5850000,117,92,137,50000,0%
+Kombucha Hoa Hibiscus,02/2024,Hải Phòng,5000000,100,74,134,50000,5%
+Kombucha Hoa Hibiscus,02/2024,Nha Trang,4600000,92,60,138,50000,10%
+Kombucha Hoa Hibiscus,02/2024,TP.HCM,7050000,141,94,190,50000,15%
+Kombucha Hoa Hibiscus,02/2024,Đà Lạt,3350000,67,65,98,50000,0%
+Kombucha Hoa Hibiscus,02/2024,Đà Nẵng,4950000,99,83,134,50000,5%
+Kombucha Lá Trà Xanh Matcha,02/2024,Cần Thơ,6150000,123,92,139,50000,0%
+Kombucha Lá Trà Xanh Matcha,02/2024,Hà Nội,8200000,164,121,186,50000,5%
+Kombucha Lá Trà Xanh Matcha,02/2024,Hải Phòng,7050000,141,97,178,50000,10%
+Kombucha Lá Trà Xanh Matcha,02/2024,Nha Trang,6400000,128,78,176,50000,15%
+Kombucha Lá Trà Xanh Matcha,02/2024,TP.HCM,8150000,163,138,177,50000,0%
+Kombucha Lá Trà Xanh Matcha,02/2024,Đà Lạt,5050000,101,83,136,50000,5%
+Kombucha Lá Trà Xanh Matcha,02/2024,Đà Nẵng,7100000,142,111,183,50000,10%
+Kombucha Mật Ong Quế,02/2024,Cần Thơ,6050000,121,84,149,50000,5%
+Kombucha Mật Ong Quế,02/2024,Hà Nội,7900000,158,107,191,50000,10%
+Kombucha Mật Ong Quế,02/2024,Hải Phòng,6950000,139,84,183,50000,15%
+Kombucha Mật Ong Quế,02/2024,Nha Trang,4900000,98,86,124,50000,0%
+Kombucha Mật Ong Quế,02/2024,TP.HCM,7700000,154,120,176,50000,5%
+Kombucha Mật Ong Quế,02/2024,Đà Lạt,4950000,99,75,147,50000,10%
+Kombucha Mật Ong Quế,02/2024,Đà Nẵng,7000000,140,98,188,50000,15%
+Kombucha Nghệ Mật Ong,02/2024,Cần Thơ,5850000,117,76,165,50000,10%
+Kombucha Nghệ Mật Ong,02/2024,Hà Nội,7600000,152,89,196,50000,15%
+Kombucha Nghệ Mật Ong,02/2024,Hải Phòng,5350000,107,92,136,50000,0%
+Kombucha Nghệ Mật Ong,02/2024,Nha Trang,4850000,97,78,140,50000,5%
+Kombucha Nghệ Mật Ong,02/2024,TP.HCM,7300000,146,101,182,50000,10%
+Kombucha Nghệ Mật Ong,02/2024,Đà Lạt,4850000,97,67,162,50000,15%
+Kombucha Nghệ Mật Ong,02/2024,Đà Nẵng,5300000,106,101,136,50000,0%
+Kombucha Trà Oolong Mộc Hương,02/2024,Cần Thơ,10900000,218,146,274,50000,15%
+Kombucha Trà Oolong Mộc Hương,02/2024,Hà Nội,12400000,248,201,270,50000,0%
+Kombucha Trà Oolong Mộc Hương,02/2024,Hải Phòng,10700000,214,167,251,50000,5%
+Kombucha Trà Oolong Mộc Hương,02/2024,Nha Trang,9550000,191,143,243,50000,10%
+Kombucha Trà Oolong Mộc Hương,02/2024,TP.HCM,13850000,277,202,324,50000,15%
+Kombucha Trà Oolong Mộc Hương,02/2024,Đà Lạt,7950000,159,143,198,50000,0%
+Kombucha Trà Oolong Mộc Hương,02/2024,Đà Nẵng,10850000,217,181,256,50000,5%
+Kombucha Trái Cây Nhiệt Đới,02/2024,Cần Thơ,8250000,165,118,185,50000,0%
+Kombucha Trái Cây Nhiệt Đới,02/2024,Hà Nội,11350000,227,157,242,50000,5%
+Kombucha Trái Cây Nhiệt Đới,02/2024,Hải Phòng,9350000,187,122,224,50000,10%
+Kombucha Trái Cây Nhiệt Đới,02/2024,Nha Trang,8400000,168,99,216,50000,15%
+Kombucha Trái Cây Nhiệt Đới,02/2024,TP.HCM,11400000,228,179,239,50000,0%
+Kombucha Trái Cây Nhiệt Đới,02/2024,Đà Lạt,6900000,138,98,171,50000,5%
+Kombucha Trái Cây Nhiệt Đới,02/2024,Đà Nẵng,9400000,188,137,229,50000,10%
+Kombucha Táo Quế,02/2024,Cần Thơ,9000000,180,126,211,50000,5%
+Kombucha Táo Quế,02/2024,Hà Nội,11700000,234,164,270,50000,10%
+Kombucha Táo Quế,02/2024,Hải Phòng,10100000,202,130,251,50000,15%
+Kombucha Táo Quế,02/2024,Nha Trang,7750000,155,122,180,50000,0%
+Kombucha Táo Quế,02/2024,TP.HCM,11700000,234,182,260,50000,5%
+Kombucha Táo Quế,02/2024,Đà Lạt,7650000,153,106,197,50000,10%
+Kombucha Táo Quế,02/2024,Đà Nẵng,10250000,205,144,256,50000,15%
+Kombucha Việt Quất,02/2024,Cần Thơ,5050000,101,55,135,50000,10%
+Kombucha Việt Quất,02/2024,Hà Nội,6350000,127,68,165,50000,15%
+Kombucha Việt Quất,02/2024,Hải Phòng,4400000,88,70,106,50000,0%
+Kombucha Việt Quất,02/2024,Nha Trang,4000000,80,57,109,50000,5%
+Kombucha Việt Quất,02/2024,TP.HCM,6050000,121,80,151,50000,10%
+Kombucha Việt Quất,02/2024,Đà Lạt,4150000,83,46,132,50000,15%
+Kombucha Việt Quất,02/2024,Đà Nẵng,4250000,85,80,105,50000,0%
+Kombucha Chanh Sả,03/2024,Cần Thơ,7800000,156,95,206,50000,10%
+Kombucha Chanh Sả,03/2024,Hà Nội,10100000,202,125,256,50000,15%
+Kombucha Chanh Sả,03/2024,Hải Phòng,7450000,149,116,184,50000,0%
+Kombucha Chanh Sả,03/2024,Nha Trang,6550000,131,97,180,50000,5%
+Kombucha Chanh Sả,03/2024,TP.HCM,10050000,201,142,248,50000,10%
+Kombucha Chanh Sả,03/2024,Đà Lạt,6450000,129,85,203,50000,15%
+Kombucha Chanh Sả,03/2024,Đà Nẵng,7550000,151,131,189,50000,0%
+Kombucha Gừng Nghệ,03/2024,Cần Thơ,10050000,201,114,246,50000,15%
+Kombucha Gừng Nghệ,03/2024,Hà Nội,14100000,282,192,270,50000,0%
+Kombucha Gừng Nghệ,03/2024,Hải Phòng,9900000,198,135,224,50000,5%
+Kombucha Gừng Nghệ,03/2024,Nha Trang,8800000,176,110,215,50000,10%
+Kombucha Gừng Nghệ,03/2024,TP.HCM,14000000,280,172,301,50000,15%
+Kombucha Gừng Nghệ,03/2024,Đà Lạt,7150000,143,109,168,50000,0%
+Kombucha Gừng Nghệ,03/2024,Đà Nẵng,10100000,202,150,230,50000,5%
+Kombucha Hoa Hibiscus,03/2024,Cần Thơ,4800000,96,73,129,50000,0%
+Kombucha Hoa Hibiscus,03/2024,Hà Nội,6500000,130,92,166,50000,5%
+Kombucha Hoa Hibiscus,03/2024,Hải Phòng,5600000,112,73,163,50000,10%
+Kombucha Hoa Hibiscus,03/2024,Nha Trang,5150000,103,59,165,50000,15%
+Kombucha Hoa Hibiscus,03/2024,TP.HCM,6350000,127,110,158,50000,0%
+Kombucha Hoa Hibiscus,03/2024,Đà Lạt,3900000,78,63,126,50000,5%
+Kombucha Hoa Hibiscus,03/2024,Đà Nẵng,5600000,112,82,163,50000,10%
+Kombucha Lá Trà Xanh Matcha,03/2024,Cần Thơ,6850000,137,92,169,50000,5%
+Kombucha Lá Trà Xanh Matcha,03/2024,Hà Nội,9000000,180,121,218,50000,10%
+Kombucha Lá Trà Xanh Matcha,03/2024,Hải Phòng,7750000,155,97,209,50000,15%
+Kombucha Lá Trà Xanh Matcha,03/2024,Nha Trang,5650000,113,94,142,50000,0%
+Kombucha Lá Trà Xanh Matcha,03/2024,TP.HCM,8950000,179,139,210,50000,5%
+Kombucha Lá Trà Xanh Matcha,03/2024,Đà Lạt,5700000,114,82,165,50000,10%
+Kombucha Lá Trà Xanh Matcha,03/2024,Đà Nẵng,7850000,157,112,214,50000,15%
+Kombucha Mật Ong Quế,03/2024,Cần Thơ,6700000,134,84,179,50000,10%
+Kombucha Mật Ong Quế,03/2024,Hà Nội,8650000,173,108,223,50000,15%
+Kombucha Mật Ong Quế,03/2024,Hải Phòng,6200000,124,99,150,50000,0%
+Kombucha Mật Ong Quế,03/2024,Nha Trang,5550000,111,85,153,50000,5%
+Kombucha Mật Ong Quế,03/2024,TP.HCM,8500000,170,120,209,50000,10%
+Kombucha Mật Ong Quế,03/2024,Đà Lạt,5550000,111,74,175,50000,15%
+Kombucha Mật Ong Quế,03/2024,Đà Nẵng,6300000,126,114,156,50000,0%
+Kombucha Nghệ Mật Ong,03/2024,Cần Thơ,6450000,129,76,194,50000,15%
+Kombucha Nghệ Mật Ong,03/2024,Hà Nội,6900000,138,105,164,50000,0%
+Kombucha Nghệ Mật Ong,03/2024,Hải Phòng,6000000,120,91,166,50000,5%
+Kombucha Nghệ Mật Ong,03/2024,Nha Trang,5400000,108,77,168,50000,10%
+Kombucha Nghệ Mật Ong,03/2024,TP.HCM,8050000,161,101,213,50000,15%
+Kombucha Nghệ Mật Ong,03/2024,Đà Lạt,4050000,81,82,128,50000,0%
+Kombucha Nghệ Mật Ong,03/2024,Đà Nẵng,5950000,119,100,166,50000,5%
+Kombucha Trà Oolong Mộc Hương,03/2024,Cần Thơ,10350000,207,164,247,50000,0%
+Kombucha Trà Oolong Mộc Hương,03/2024,Hà Nội,13450000,269,205,309,50000,5%
+Kombucha Trà Oolong Mộc Hương,03/2024,Hải Phòng,11600000,232,169,287,50000,10%
+Kombucha Trà Oolong Mộc Hương,03/2024,Nha Trang,10400000,208,145,278,50000,15%
+Kombucha Trà Oolong Mộc Hương,03/2024,TP.HCM,13500000,270,222,300,50000,0%
+Kombucha Trà Oolong Mộc Hương,03/2024,Đà Lạt,8750000,175,144,232,50000,5%
+Kombucha Trà Oolong Mộc Hương,03/2024,Đà Nẵng,11800000,236,184,293,50000,10%
+Kombucha Trái Cây Nhiệt Đới,03/2024,Cần Thơ,9000000,180,118,217,50000,5%
+Kombucha Trái Cây Nhiệt Đới,03/2024,Hà Nội,12300000,246,159,279,50000,10%
+Kombucha Trái Cây Nhiệt Đới,03/2024,Hải Phòng,10150000,203,123,258,50000,15%
+Kombucha Trái Cây Nhiệt Đới,03/2024,Nha Trang,7750000,155,115,185,50000,0%
+Kombucha Trái Cây Nhiệt Đới,03/2024,TP.HCM,12350000,247,182,276,50000,5%
+Kombucha Trái Cây Nhiệt Đới,03/2024,Đà Lạt,7600000,152,98,202,50000,10%
+Kombucha Trái Cây Nhiệt Đới,03/2024,Đà Nẵng,10250000,205,138,263,50000,15%
+Kombucha Táo Quế,03/2024,Cần Thơ,9800000,196,126,245,50000,10%
+Kombucha Táo Quế,03/2024,Hà Nội,12600000,252,167,306,50000,15%
+Kombucha Táo Quế,03/2024,Hải Phòng,9500000,190,147,222,50000,0%
+Kombucha Táo Quế,03/2024,Nha Trang,8500000,170,123,213,50000,5%
+Kombucha Táo Quế,03/2024,TP.HCM,12700000,254,184,298,50000,10%
+Kombucha Táo Quế,03/2024,Đà Lạt,8400000,168,106,230,50000,15%
+Kombucha Táo Quế,03/2024,Đà Nẵng,9700000,194,162,228,50000,0%
+Kombucha Việt Quất,03/2024,Cần Thơ,5600000,112,53,162,50000,15%
+Kombucha Việt Quất,03/2024,Hà Nội,5550000,111,83,131,50000,0%
+Kombucha Việt Quất,03/2024,Hải Phòng,5000000,100,69,133,50000,5%
+Kombucha Việt Quất,03/2024,Nha Trang,4550000,91,55,136,50000,10%
+Kombucha Việt Quất,03/2024,TP.HCM,6700000,134,79,179,50000,15%
+Kombucha Việt Quất,03/2024,Đà Lạt,3250000,65,60,95,50000,0%
+Kombucha Việt Quất,03/2024,Đà Nẵng,4850000,97,78,133,50000,5%
+Kombucha Chanh Sả,10/2023,Cần Thơ,5750000,115,79,133,50000,5%
+Kombucha Chanh Sả,10/2023,Hà Nội,7550000,151,103,172,50000,10%
+Kombucha Chanh Sả,10/2023,Hải Phòng,6650000,133,82,170,50000,15%
+Kombucha Chanh Sả,10/2023,Nha Trang,4650000,93,82,109,50000,0%
+Kombucha Chanh Sả,10/2023,TP.HCM,7350000,147,118,160,50000,5%
+Kombucha Chanh Sả,10/2023,Đà Lạt,4650000,93,71,134,50000,10%
+Kombucha Chanh Sả,10/2023,Đà Nẵng,6600000,132,95,172,50000,15%
+Kombucha Gừng Nghệ,10/2023,Cần Thơ,7600000,152,94,166,50000,10%
+Kombucha Gừng Nghệ,10/2023,Hà Nội,11750000,235,144,227,50000,15%
+Kombucha Gừng Nghệ,10/2023,Hải Phòng,7250000,145,113,139,50000,0%
+Kombucha Gừng Nghệ,10/2023,Nha Trang,6450000,129,92,137,50000,5%
+Kombucha Gừng Nghệ,10/2023,TP.HCM,10450000,209,142,199,50000,10%
+Kombucha Gừng Nghệ,10/2023,Đà Lạt,6400000,128,77,157,50000,15%
+Kombucha Gừng Nghệ,10/2023,Đà Nẵng,7300000,146,126,141,50000,0%
+Kombucha Hoa Hibiscus,10/2023,Cần Thơ,4750000,95,47,133,50000,15%
+Kombucha Hoa Hibiscus,10/2023,Hà Nội,4700000,94,78,101,50000,0%
+Kombucha Hoa Hibiscus,10/2023,Hải Phòng,4050000,81,62,102,50000,5%
+Kombucha Hoa Hibiscus,10/2023,Nha Trang,3800000,76,50,109,50000,10%
+Kombucha Hoa Hibiscus,10/2023,TP.HCM,5800000,116,78,151,50000,15%
+Kombucha Hoa Hibiscus,10/2023,Đà Lạt,2600000,52,55,70,50000,0%
+Kombucha Hoa Hibiscus,10/2023,Đà Nẵng,3950000,79,70,101,50000,5%
+Kombucha Lá Trà Xanh Matcha,10/2023,Cần Thơ,5000000,100,78,102,50000,0%
+Kombucha Lá Trà Xanh Matcha,10/2023,Hà Nội,6700000,134,101,142,50000,5%
+Kombucha Lá Trà Xanh Matcha,10/2023,Hải Phòng,5800000,116,81,139,50000,10%
+Kombucha Lá Trà Xanh Matcha,10/2023,Nha Trang,5350000,107,65,141,50000,15%
+Kombucha Lá Trà Xanh Matcha,10/2023,TP.HCM,6500000,130,117,130,50000,0%
+Kombucha Lá Trà Xanh Matcha,10/2023,Đà Lạt,4050000,81,70,103,50000,5%
+Kombucha Lá Trà Xanh Matcha,10/2023,Đà Nẵng,5750000,115,94,142,50000,10%
+Kombucha Mật Ong Quế,10/2023,Cần Thơ,5000000,100,71,115,50000,5%
+Kombucha Mật Ong Quế,10/2023,Hà Nội,6550000,131,90,150,50000,10%
+Kombucha Mật Ong Quế,10/2023,Hải Phòng,5800000,116,69,147,50000,15%
+Kombucha Mật Ong Quế,10/2023,Nha Trang,3950000,79,73,91,50000,0%
+Kombucha Mật Ong Quế,10/2023,TP.HCM,6250000,125,101,133,50000,5%
+Kombucha Mật Ong Quế,10/2023,Đà Lạt,4050000,81,63,115,50000,10%
+Kombucha Mật Ong Quế,10/2023,Đà Nẵng,5750000,115,82,149,50000,15%
+Kombucha Nghệ Mật Ong,10/2023,Cần Thơ,4950000,99,64,132,50000,10%
+Kombucha Nghệ Mật Ong,10/2023,Hà Nội,6350000,127,74,157,50000,15%
+Kombucha Nghệ Mật Ong,10/2023,Hải Phòng,4350000,87,78,101,50000,0%
+Kombucha Nghệ Mật Ong,10/2023,Nha Trang,3950000,79,66,107,50000,5%
+Kombucha Nghệ Mật Ong,10/2023,TP.HCM,6000000,120,85,141,50000,10%
+Kombucha Nghệ Mật Ong,10/2023,Đà Lạt,4100000,82,56,132,50000,15%
+Kombucha Nghệ Mật Ong,10/2023,Đà Nẵng,4200000,84,86,99,50000,0%
+Kombucha Trà Oolong Mộc Hương,10/2023,Cần Thơ,9050000,181,122,218,50000,15%
+Kombucha Trà Oolong Mộc Hương,10/2023,Hà Nội,10050000,201,171,202,50000,0%
+Kombucha Trà Oolong Mộc Hương,10/2023,Hải Phòng,8750000,175,141,192,50000,5%
+Kombucha Trà Oolong Mộc Hương,10/2023,Nha Trang,7850000,157,121,189,50000,10%
+Kombucha Trà Oolong Mộc Hương,10/2023,TP.HCM,11350000,227,170,253,50000,15%
+Kombucha Trà Oolong Mộc Hương,10/2023,Đà Lạt,6400000,128,122,147,50000,0%
+Kombucha Trà Oolong Mộc Hương,10/2023,Đà Nẵng,8750000,175,154,194,50000,5%
+Kombucha Trái Cây Nhiệt Đới,10/2023,Cần Thơ,6750000,135,100,138,50000,0%
+Kombucha Trái Cây Nhiệt Đới,10/2023,Hà Nội,9300000,186,133,184,50000,5%
+Kombucha Trái Cây Nhiệt Đới,10/2023,Hải Phòng,7700000,154,103,174,50000,10%
+Kombucha Trái Cây Nhiệt Đới,10/2023,Nha Trang,7000000,140,83,172,50000,15%
+Kombucha Trái Cây Nhiệt Đới,10/2023,TP.HCM,9200000,184,153,177,50000,0%
+Kombucha Trái Cây Nhiệt Đới,10/2023,Đà Lạt,5650000,113,84,129,50000,5%
+Kombucha Trái Cây Nhiệt Đới,10/2023,Đà Nẵng,7650000,153,116,176,50000,10%
+Kombucha Táo Quế,10/2023,Cần Thơ,7450000,149,106,162,50000,5%
+Kombucha Táo Quế,10/2023,Hà Nội,9650000,193,139,209,50000,10%
+Kombucha Táo Quế,10/2023,Hải Phòng,8400000,168,109,199,50000,15%
+Kombucha Táo Quế,10/2023,Nha Trang,6300000,126,105,134,50000,0%
+Kombucha Táo Quế,10/2023,TP.HCM,9550000,191,154,197,50000,5%
+Kombucha Táo Quế,10/2023,Đà Lạt,6300000,126,90,153,50000,10%
+Kombucha Táo Quế,10/2023,Đà Nẵng,8450000,169,122,201,50000,15%
+Kombucha Việt Quất,10/2023,Cần Thơ,4350000,87,46,108,50000,10%
+Kombucha Việt Quất,10/2023,Hà Nội,5450000,109,57,134,50000,15%
+Kombucha Việt Quất,10/2023,Hải Phòng,3650000,73,61,78,50000,0%
+Kombucha Việt Quất,10/2023,Nha Trang,3400000,68,49,84,50000,5%
+Kombucha Việt Quất,10/2023,TP.HCM,5050000,101,68,118,50000,10%
+Kombucha Việt Quất,10/2023,Đà Lạt,3600000,72,39,108,50000,15%
+Kombucha Việt Quất,10/2023,Đà Nẵng,3450000,69,69,76,50000,0%
+Kombucha Chanh Sả,11/2023,Cần Thơ,6450000,129,79,158,50000,10%
+Kombucha Chanh Sả,11/2023,Hà Nội,8300000,166,104,198,50000,15%
+Kombucha Chanh Sả,11/2023,Hải Phòng,5950000,119,98,132,50000,0%
+Kombucha Chanh Sả,11/2023,Nha Trang,5250000,105,82,133,50000,5%
+Kombucha Chanh Sả,11/2023,TP.HCM,8150000,163,120,187,50000,10%
+Kombucha Chanh Sả,11/2023,Đà Lạt,5250000,105,71,157,50000,15%
+Kombucha Chanh Sả,11/2023,Đà Nẵng,5900000,118,112,135,50000,0%
+Kombucha Gừng Nghệ,11/2023,Cần Thơ,8350000,167,95,191,50000,15%
+Kombucha Gừng Nghệ,11/2023,Hà Nội,11350000,227,163,195,50000,0%
+Kombucha Gừng Nghệ,11/2023,Hải Phòng,8050000,161,114,166,50000,5%
+Kombucha Gừng Nghệ,11/2023,Nha Trang,7150000,143,93,162,50000,10%
+Kombucha Gừng Nghệ,11/2023,TP.HCM,11400000,228,145,229,50000,15%
+Kombucha Gừng Nghệ,11/2023,Đà Lạt,5700000,114,93,119,50000,0%
+Kombucha Gừng Nghệ,11/2023,Đà Nẵng,8100000,162,127,169,50000,5%
+Kombucha Hoa Hibiscus,11/2023,Cần Thơ,3900000,78,62,92,50000,0%
+Kombucha Hoa Hibiscus,11/2023,Hà Nội,5300000,106,77,124,50000,5%
+Kombucha Hoa Hibiscus,11/2023,Hải Phòng,4650000,93,61,125,50000,10%
+Kombucha Hoa Hibiscus,11/2023,Nha Trang,4350000,87,48,131,50000,15%
+Kombucha Hoa Hibiscus,11/2023,TP.HCM,5050000,101,94,112,50000,0%
+Kombucha Hoa Hibiscus,11/2023,Đà Lạt,3100000,62,54,91,50000,5%
+Kombucha Hoa Hibiscus,11/2023,Đà Nẵng,4550000,91,69,123,50000,10%
+Kombucha Lá Trà Xanh Matcha,11/2023,Cần Thơ,5650000,113,78,126,50000,5%
+Kombucha Lá Trà Xanh Matcha,11/2023,Hà Nội,7400000,148,102,167,50000,10%
+Kombucha Lá Trà Xanh Matcha,11/2023,Hải Phòng,6450000,129,81,163,50000,15%
+Kombucha Lá Trà Xanh Matcha,11/2023,Nha Trang,4550000,91,80,101,50000,0%
+Kombucha Lá Trà Xanh Matcha,11/2023,TP.HCM,7250000,145,118,155,50000,5%
+Kombucha Lá Trà Xanh Matcha,11/2023,Đà Lạt,4650000,93,69,125,50000,10%
+Kombucha Lá Trà Xanh Matcha,11/2023,Đà Nẵng,6400000,128,94,166,50000,15%
+Kombucha Mật Ong Quế,11/2023,Cần Thơ,5600000,112,70,138,50000,10%
+Kombucha Mật Ong Quế,11/2023,Hà Nội,7200000,144,90,174,50000,15%
+Kombucha Mật Ong Quế,11/2023,Hải Phòng,5050000,101,85,108,50000,0%
+Kombucha Mật Ong Quế,11/2023,Nha Trang,4550000,91,73,113,50000,5%
+Kombucha Mật Ong Quế,11/2023,TP.HCM,6950000,139,102,158,50000,10%
+Kombucha Mật Ong Quế,11/2023,Đà Lạt,4650000,93,62,137,50000,15%
+Kombucha Mật Ong Quế,11/2023,Đà Nẵng,5000000,100,98,110,50000,0%
+Kombucha Nghệ Mật Ong,11/2023,Cần Thơ,5500000,110,63,154,50000,15%
+Kombucha Nghệ Mật Ong,11/2023,Hà Nội,5600000,112,90,118,50000,0%
+Kombucha Nghệ Mật Ong,11/2023,Hải Phòng,4950000,99,77,124,50000,5%
+Kombucha Nghệ Mật Ong,11/2023,Nha Trang,4500000,90,65,129,50000,10%
+Kombucha Nghệ Mật Ong,11/2023,TP.HCM,6650000,133,85,165,50000,15%
+Kombucha Nghệ Mật Ong,11/2023,Đà Lạt,3200000,64,71,90,50000,0%
+Kombucha Nghệ Mật Ong,11/2023,Đà Nẵng,4800000,96,86,122,50000,5%
+Kombucha Trà Oolong Mộc Hương,11/2023,Cần Thơ,8450000,169,140,183,50000,0%
+Kombucha Trà Oolong Mộc Hương,11/2023,Hà Nội,10950000,219,174,232,50000,5%
+Kombucha Trà Oolong Mộc Hương,11/2023,Hải Phòng,9550000,191,144,220,50000,10%
+Kombucha Trà Oolong Mộc Hương,11/2023,Nha Trang,8600000,172,122,217,50000,15%
+Kombucha Trà Oolong Mộc Hương,11/2023,TP.HCM,10900000,218,190,221,50000,0%
+Kombucha Trà Oolong Mộc Hương,11/2023,Đà Lạt,7100000,142,123,173,50000,5%
+Kombucha Trà Oolong Mộc Hương,11/2023,Đà Nẵng,9600000,192,157,223,50000,10%
+Kombucha Trái Cây Nhiệt Đới,11/2023,Cần Thơ,7450000,149,101,163,50000,5%
+Kombucha Trái Cây Nhiệt Đới,11/2023,Hà Nội,10150000,203,135,212,50000,10%
+Kombucha Trái Cây Nhiệt Đới,11/2023,Hải Phòng,8450000,169,104,200,50000,15%
+Kombucha Trái Cây Nhiệt Đới,11/2023,Nha Trang,6300000,126,99,134,50000,0%
+Kombucha Trái Cây Nhiệt Đới,11/2023,TP.HCM,10050000,201,155,206,50000,5%
+Kombucha Trái Cây Nhiệt Đới,11/2023,Đà Lạt,6300000,126,83,154,50000,10%
+Kombucha Trái Cây Nhiệt Đới,11/2023,Đà Nẵng,8400000,168,117,203,50000,15%
+Kombucha Táo Quế,11/2023,Cần Thơ,8150000,163,107,188,50000,10%
+Kombucha Táo Quế,11/2023,Hà Nội,10500000,210,141,238,50000,15%
+Kombucha Táo Quế,11/2023,Hải Phòng,7750000,155,126,163,50000,0%
+Kombucha Táo Quế,11/2023,Nha Trang,7000000,140,105,159,50000,5%
+Kombucha Táo Quế,11/2023,TP.HCM,10400000,208,157,227,50000,10%
+Kombucha Táo Quế,11/2023,Đà Lạt,7000000,140,90,179,50000,15%
+Kombucha Táo Quế,11/2023,Đà Nẵng,7850000,157,140,166,50000,0%
+Kombucha Việt Quất,11/2023,Cần Thơ,4850000,97,45,129,50000,15%
+Kombucha Việt Quất,11/2023,Hà Nội,4600000,92,71,94,50000,0%
+Kombucha Việt Quất,11/2023,Hải Phòng,4200000,84,59,99,50000,5%
+Kombucha Việt Quất,11/2023,Nha Trang,3900000,78,47,104,50000,10%
+Kombucha Việt Quất,11/2023,TP.HCM,5650000,113,67,140,50000,15%
+Kombucha Việt Quất,11/2023,Đà Lạt,2650000,53,52,65,50000,0%
+Kombucha Việt Quất,11/2023,Đà Nẵng,4000000,80,68,97,50000,5%
+Kombucha Chanh Sả,12/2023,Cần Thơ,7150000,143,79,184,50000,15%
+Kombucha Chanh Sả,12/2023,Hà Nội,7750000,155,121,165,50000,0%
+Kombucha Chanh Sả,12/2023,Hải Phòng,6700000,134,99,159,50000,5%
+Kombucha Chanh Sả,12/2023,Nha Trang,5950000,119,81,159,50000,10%
+Kombucha Chanh Sả,12/2023,TP.HCM,9000000,180,122,217,50000,15%
+Kombucha Chanh Sả,12/2023,Đà Lạt,4550000,91,87,120,50000,0%
+Kombucha Chanh Sả,12/2023,Đà Nẵng,6700000,134,112,163,50000,5%
+Kombucha Gừng Nghệ,12/2023,Cần Thơ,7750000,155,112,156,50000,0%
+Kombucha Gừng Nghệ,12/2023,Hà Nội,12450000,249,166,229,50000,5%
+Kombucha Gừng Nghệ,12/2023,Hải Phòng,8900000,178,115,195,50000,10%
+Kombucha Gừng Nghệ,12/2023,Nha Trang,7950000,159,93,190,50000,15%
+Kombucha Gừng Nghệ,12/2023,TP.HCM,11050000,221,164,199,50000,0%
+Kombucha Gừng Nghệ,12/2023,Đà Lạt,6450000,129,93,146,50000,5%
+Kombucha Gừng Nghệ,12/2023,Đà Nẵng,9000000,180,129,198,50000,10%
+Kombucha Hoa Hibiscus,12/2023,Cần Thơ,4500000,90,61,115,50000,5%
+Kombucha Hoa Hibiscus,12/2023,Hà Nội,6000000,120,77,149,50000,10%
+Kombucha Hoa Hibiscus,12/2023,Hải Phòng,5250000,105,60,148,50000,15%
+Kombucha Hoa Hibiscus,12/2023,Nha Trang,3500000,70,63,90,50000,0%
+Kombucha Hoa Hibiscus,12/2023,TP.HCM,5750000,115,94,138,50000,5%
+Kombucha Hoa Hibiscus,12/2023,Đà Lạt,3700000,74,52,114,50000,10%
+Kombucha Hoa Hibiscus,12/2023,Đà Nẵng,5150000,103,68,147,50000,15%
+Kombucha Lá Trà Xanh Matcha,12/2023,Cần Thơ,6300000,126,77,150,50000,10%
+Kombucha Lá Trà Xanh Matcha,12/2023,Hà Nội,8200000,164,103,194,50000,15%
+Kombucha Lá Trà Xanh Matcha,12/2023,Hải Phòng,5750000,115,97,126,50000,0%
+Kombucha Lá Trà Xanh Matcha,12/2023,Nha Trang,5200000,104,79,126,50000,5%
+Kombucha Lá Trà Xanh Matcha,12/2023,TP.HCM,8050000,161,120,183,50000,10%
+Kombucha Lá Trà Xanh Matcha,12/2023,Đà Lạt,5300000,106,69,149,50000,15%
+Kombucha Lá Trà Xanh Matcha,12/2023,Đà Nẵng,5750000,115,110,130,50000,0%
+Kombucha Mật Ong Quế,12/2023,Cần Thơ,6250000,125,70,162,50000,15%
+Kombucha Mật Ong Quế,12/2023,Hà Nội,6550000,131,107,137,50000,0%
+Kombucha Mật Ong Quế,12/2023,Hải Phòng,5700000,114,84,132,50000,5%
+Kombucha Mật Ong Quế,12/2023,Nha Trang,5150000,103,72,137,50000,10%
+Kombucha Mật Ong Quế,12/2023,TP.HCM,7700000,154,102,185,50000,15%
+Kombucha Mật Ong Quế,12/2023,Đà Lạt,3850000,77,77,98,50000,0%
+Kombucha Mật Ong Quế,12/2023,Đà Nẵng,5700000,114,98,136,50000,5%
+Kombucha Nghệ Mật Ong,12/2023,Cần Thơ,4700000,94,78,115,50000,0%
+Kombucha Nghệ Mật Ong,12/2023,Hà Nội,6300000,126,89,144,50000,5%
+Kombucha Nghệ Mật Ong,12/2023,Hải Phòng,5550000,111,77,148,50000,10%
+Kombucha Nghệ Mật Ong,12/2023,Nha Trang,5100000,102,64,153,50000,15%
+Kombucha Nghệ Mật Ong,12/2023,TP.HCM,6000000,120,101,129,50000,0%
+Kombucha Nghệ Mật Ong,12/2023,Đà Lạt,3800000,76,69,114,50000,5%
+Kombucha Nghệ Mật Ong,12/2023,Đà Nẵng,5450000,109,86,147,50000,10%
+Kombucha Trà Oolong Mộc Hương,12/2023,Cần Thơ,9350000,187,142,214,50000,5%
+Kombucha Trà Oolong Mộc Hương,12/2023,Hà Nội,12000000,240,178,267,50000,10%
+Kombucha Trà Oolong Mộc Hương,12/2023,Hải Phòng,10450000,209,146,252,50000,15%
+Kombucha Trà Oolong Mộc Hương,12/2023,Nha Trang,8050000,161,140,184,50000,0%
+Kombucha Trà Oolong Mộc Hương,12/2023,TP.HCM,11950000,239,194,256,50000,5%
+Kombucha Trà Oolong Mộc Hương,12/2023,Đà Lạt,7900000,158,124,202,50000,10%
+Kombucha Trà Oolong Mộc Hương,12/2023,Đà Nẵng,10550000,211,160,255,50000,15%
+Kombucha Trái Cây Nhiệt Đới,12/2023,Cần Thơ,8200000,164,101,191,50000,10%
+Kombucha Trái Cây Nhiệt Đới,12/2023,Hà Nội,11050000,221,137,243,50000,15%
+Kombucha Trái Cây Nhiệt Đới,12/2023,Hải Phòng,7850000,157,121,166,50000,0%
+Kombucha Trái Cây Nhiệt Đới,12/2023,Nha Trang,7000000,140,99,161,50000,5%
+Kombucha Trái Cây Nhiệt Đới,12/2023,TP.HCM,11050000,221,158,238,50000,10%
+Kombucha Trái Cây Nhiệt Đới,12/2023,Đà Lạt,7000000,140,83,180,50000,15%
+Kombucha Trái Cây Nhiệt Đới,12/2023,Đà Nẵng,7850000,157,134,170,50000,0%
+Kombucha Táo Quế,12/2023,Cần Thơ,8950000,179,108,217,50000,15%
+Kombucha Táo Quế,12/2023,Hà Nội,10000000,200,159,207,50000,0%
+Kombucha Táo Quế,12/2023,Hải Phòng,8600000,172,128,192,50000,5%
+Kombucha Táo Quế,12/2023,Nha Trang,7750000,155,105,187,50000,10%
+Kombucha Táo Quế,12/2023,TP.HCM,11400000,228,160,259,50000,15%
+Kombucha Táo Quế,12/2023,Đà Lạt,6350000,127,106,143,50000,0%
+Kombucha Táo Quế,12/2023,Đà Nẵng,8700000,174,141,196,50000,5%
+Kombucha Việt Quất,12/2023,Cần Thơ,4000000,80,59,88,50000,0%
+Kombucha Việt Quất,12/2023,Hà Nội,5200000,104,70,117,50000,5%
+Kombucha Việt Quất,12/2023,Hải Phòng,4750000,95,58,121,50000,10%
+Kombucha Việt Quất,12/2023,Nha Trang,4400000,88,45,126,50000,15%
+Kombucha Việt Quất,12/2023,TP.HCM,4900000,98,82,101,50000,0%
+Kombucha Việt Quất,12/2023,Đà Lạt,3200000,64,50,87,50000,5%
+Kombucha Việt Quất,12/2023,Đà Nẵng,4550000,91,66,120,50000,10%

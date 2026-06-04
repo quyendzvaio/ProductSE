@@ -1,0 +1,101 @@
+Tên,Thành phần,Chống chỉ định với,Mô tả,Hương vị,Link ảnh sản phẩm
+Kombucha Gừng Nghệ,Nước trà xanh lên men, gừng tươi, nghệ, mật ong,Viêm loét dạ dày, dị ứng gừng,Giúp giảm viêm, tăng cường miễn dịch, hỗ trợ tiêu hóa,Cay nhẹ, the gừng,https://picsum.photos/id/1/200/200
+Kombucha Trái Cây Nhiệt Đới,Nước trà ô long lên men, xoài, chanh dây, dứa,Tiểu đường (nếu thêm đường), dị ứng trái cây,Giàu vitamin, tươi mát, tiếp thêm năng lượng,Chua ngọt, thơm mùi nhiệt đới,https://picsum.photos/id/2/200/200
+Kombucha Lá Trà Xanh Matcha,Nước trà xanh matcha lên men, bột matcha, cỏ ngọt,Cao huyết áp (caffeine), mất ngủ,Thanh lọc cơ thể, tăng cường tập trung,Chát nhẹ, vị trà đậm,https://picsum.photos/id/3/200/200
+Kombucha Hoa Hibiscus,Nước trà đen lên men, hoa hibiscus, quế, táo đỏ,Huyết áp thấp, dạ dày nhạy cảm,Giàu chất chống oxy hóa, hỗ trợ tim mạch,Chua thanh, hậu ngọt,https://picsum.photos/id/4/200/200
+Kombucha Chanh Sả,Nước trà xanh lên men, chanh, sả, bạc hà,Trào ngược dạ dày, dị ứng tinh dầu,Giải nhiệt, thư giãn tinh thần, giảm căng thẳng,Theo mát, hương cam quýt,https://picsum.photos/id/5/200/200
+Kombucha Mật Ong Quế,Nước trà đen lên men, mật ong nguyên chất, quế,Tiểu đường, dị ứng phấn hoa,Ấm bụng, hỗ trợ tuần hoàn máu,Ngọt dịu, cay nhẹ,https://picsum.photos/id/6/200/200
+Kombucha Việt Quất,Nước trà trắng lên men, việt quất, hương thảo,Đang dùng thuốc chống đông máu,Giàu anthocyanin, tốt cho mắt và da,Chua ngọt, vị berry,https://picsum.photos/id/7/200/200
+Kombucha Táo Quế,Nước trà xanh lên men, táo, quế, gừng,Dị ứng táo, viêm loét dạ dày,Giàu chất xơ, hỗ trợ tiêu hóa,Thơm táo, hậu ấm,https://picsum.photos/id/8/200/200
+Kombucha Trà Oolong Mộc Hương,Nước trà ô long lên men, hoa mộc hương, lê,Mang thai (tinh dầu),Mùi hương dịu nhẹ, thư giãn, thanh lọc,Thơm hoa, vị ngọt thanh,https://picsum.photos/id/9/200/200
+Kombucha Nghệ Mật Ong,Nước trà đen lên men, nghệ tươi, mật ong, tiêu đen,Sỏi mật, người dùng thuốc chống đông,Chống viêm, giảm đau khớp, hỗ trợ gan,Cay nhẹ, ngọt hậu,https://picsum.photos/id/10/200/200
+Kombucha Dưa Lưới,Nước trà xanh lên men, dưa lưới, bạc hà,Đái tháo đường (nếu có đường bổ sung),Mát lành, giải khát, cung cấp electrolyte,Thơm dưa, mát dịu,https://picsum.photos/id/11/200/200
+Kombucha Cà Phê (Coffee Kombucha),Nước trà đen lên men, hạt cà phê rang, vani,Mất ngủ, lo âu, trào ngược dạ dày,Hương vị độc đáo, tỉnh táo, hỗ trợ tiêu hóa,Đắng nhẹ, thơm cà phê,https://picsum.photos/id/12/200/200
+Kombucha Hạt Chia,Nước trà xanh lên men, hạt chia, chanh, mật ong,Hẹp thực quản, người khó nuốt,Giàu omega-3, tạo cảm giác no, tốt cho đường ruột,Chua nhẹ, vị sệt,https://picsum.photos/id/13/200/200
+Kombucha Lá Ổi,Nước trà trắng lên men, lá ổi non, mật ong,Táo bón nặng,Giảm đường huyết tự nhiên, hỗ trợ tiêu chảy,Chát nhẹ, thơm mùi lá,https://picsum.photos/id/14/200/200
+Kombucha Hoa Hồng,Nước trà đen lên men, cánh hồng, táo đỏ, mật ong,Dị ứng phấn hoa,Giàu vitamin C, làm đẹp da, an thần,Hoa hồng, ngọt dịu,https://picsum.photos/id/15/200/200
+Kombucha Rau Má,Nước trà xanh lên men, rau má tươi, chanh, gừng,Huyết áp thấp, đang mang thai 3 tháng đầu,Mát gan, giải độc, hỗ trợ giảm mụn,Thảo mộc, the nhẹ,https://picsum.photos/id/16/200/200
+Kombucha Xoài Ớt,Nước trà ô long lên men, xoài chín, ớt chuông, muối biển,Trào ngược dạ dày, viêm loét,Hương vị Mexico, kích thích vị giác, cay nhẹ,Chua cay, vị xoài,https://picsum.photos/id/17/200/200
+Kombucha Lựu Đỏ,Nước trà trắng lên men, lựu, cam, quế,Viêm loét dạ dày,Giàu chất chống oxy hóa, hỗ trợ tuần hoàn,Chua thanh, ngọt hậu,https://picsum.photos/id/18/200/200
+Kombucha Sâm Đại Hành,Nước trà xanh lên men, sâm đại hành, táo đỏ, mật ong,Tăng huyết áp, mất ngủ,Bổ khí, tăng sức đề kháng,Vị hơi đắng, ngọt,https://picsum.photos/id/19/200/200
+Kombucha Trà Bạc Hà,Nước trà xanh lên men, bạc hà tươi, chanh, cỏ ngọt,Trào ngược dạ dày,Thư giãn, giảm đau đầu, làm mát cơ thể,Theo mát, hương bạc hà,https://picsum.photos/id/20/200/200
+Kombucha Yến Mạch,Nước trà đen lên men, yến mạch nguyên cám, quế, mật ong,Celiac (nếu yến mạch không đảm bảo),Giàu beta-glucan, tốt cho tim mạch, ổn định đường huyết,Vị ngọt bùi, thơm quế,https://picsum.photos/id/21/200/200
+Kombucha Nấm Linh Chi,Nước trà xanh lên men, cao linh chi, cam thảo,Đang dùng thuốc chống đông, huyết áp thấp,Tăng cường miễn dịch, an thần, giảm stress,Đắng nhẹ, hậu ngọt,https://picsum.photos/id/22/200/200
+Kombucha Bưởi Hồng,Nước trà trắng lên men, bưởi hồng, sả, mật ong,Tương tác thuốc statin (nếu dùng bưởi),Giàu vitamin C, thanh lọc, hỗ trợ giảm cân,Chua the, hương bưởi,https://picsum.photos/id/23/200/200
+Kombucha Dâu Tây,Nước trà xanh lên men, dâu tây, húng quế, cỏ ngọt,Dị ứng dâu,Giàu chất chống oxy hóa, thơm ngon, tốt cho da,Ngọt nhẹ, chua dịu,https://picsum.photos/id/24/200/200
+Kombucha Gấc,Nước trà đen lên men, gấc, mật ong, chanh,Sỏi mật,Giàu beta-caroten, tốt cho mắt, tăng cường miễn dịch,Vị ngọt béo tự nhiên,https://picsum.photos/id/25/200/200
+Kombucha Trà Atiso,Nước trà xanh lên men, đài atiso, cam thảo,Phụ nữ có thai 3 tháng đầu,Giải nhiệt, mát gan, lợi mật,Chát nhẹ, hậu ngọt,https://picsum.photos/id/26/200/200
+Kombucha Dứa Gừng,Nước trà ô long lên men, dứa, gừng, nghệ,Viêm loét dạ dày, dị ứng dứa,Chống viêm, hỗ trợ tiêu hóa, giàu bromelain,Chua cay, thơm dứa,https://picsum.photos/id/27/200/200
+Kombucha Trà Đen Sữa,Nước trà đen lên men, sữa hạnh nhân, vani, quế,Dị ứng sữa, không dung nạp lactose,Vị creamy, giảm căng thẳng, dễ uống,Vị trà sữa nhẹ,https://picsum.photos/id/28/200/200
+Kombucha Việt Quất Lá Mâm Xôi,Nước trà trắng lên men, việt quất, mâm xôi, hương thảo,Đang dùng thuốc chống đông,Giàu antioxidant, hỗ trợ trí não,Chua ngọt, hương berry,https://picsum.photos/id/29/200/200
+Kombucha Rong Biển,Nước trà xanh lên men, rong biển kombu, gừng, chanh,Cường giáp, dị ứng i-ốt,Giàu khoáng chất, hỗ trợ tuyến giáp, vị umami nhẹ,Mặn chua nhẹ,https://picsum.photos/id/30/200/200
+Kombucha Lá Vối,Nước trà đen lên men, lá vối, mật ong, sả,Huyết áp thấp,Giảm acid uric, hỗ trợ tiêu hóa,Chát, thơm mùi lá vối,https://picsum.photos/id/31/200/200
+Kombucha Thanh Long Đỏ,Nước trà xanh lên men, thanh long đỏ, chanh, mật ong,Suy thận (nếu dùng nhiều),Giàu chất xơ, chống oxy hóa, đẹp da,Vị ngọt thanh, màu sắc bắt mắt,https://picsum.photos/id/32/200/200
+Kombucha Hạt Sen,Nước trà trắng lên men, hạt sen, táo đỏ, long nhãn,Táo bón,An thần, dễ ngủ, bổ tỳ vị,Vị ngọt bùi, thơm nhẹ,https://picsum.photos/id/33/200/200
+Kombucha Nha Đam,Nước trà xanh lên men, gel nha đam, chanh, bạc hà,Phụ nữ có thai, tiêu chảy,Giải nhiệt, tốt cho da, hỗ trợ tiêu hóa,Mát dịu, vị chua nhẹ,https://picsum.photos/id/34/200/200
+Kombucha Trà Đen Hồng Trà,Nước trà đen lên men, hồng trà Assam, sữa đặc, quế,Đái tháo đường,Giàu năng lượng, dễ uống, vị trà sữa,Vị ngọt đậm, thơm trà,https://picsum.photos/id/35/200/200
+Kombucha Ớt Chuông Đỏ,Nước trà ô long lên men, ớt chuông đỏ, cà chua, húng quế,Trào ngược dạ dày,Giàu vitamin C, hỗ trợ miễn dịch, vị rau củ,Chua nhẹ, vị ớt ngọt,https://picsum.photos/id/36/200/200
+Kombucha Hoa Cúc,Nước trà trắng lên men, hoa cúc vàng, kỷ tử, mật ong,Huyết áp thấp, dị ứng hoa cúc,Giải nhiệt, an thần, tốt cho mắt,Vị ngọt thanh, hương cúc,https://picsum.photos/id/37/200/200
+Kombucha Củ Cải Đỏ,Nước trà đen lên men, củ cải đỏ, táo, gừng,Sỏi thận (oxalate),Giàu folate, hỗ trợ thải độc gan,Vị ngọt đất, hơi cay,https://picsum.photos/id/38/200/200
+Kombucha Trà Đen Lên Men Lần 2 (Kombucha Doubled),Nước trà đen lên men 2 lần, mật ong, vani,Đang dùng kháng sinh,Độ chua cao, probiotic mạnh, hỗ trợ tiêu hóa tối ưu,Vị chua đậm, ngọt nhẹ,https://picsum.photos/id/39/200/200
+Kombucha Bí Đỏ,Nước trà xanh lên men, bí đỏ, quế, nhục đậu khấu,Tiểu đường,Giàu beta-carotene, tốt cho mắt, vị bùi,Vị ngọt bùi, thơm gia vị,https://picsum.photos/id/40/200/200
+Kombucha Rau Má Tía Tô,Nước trà ô long lên men, rau má, tía tô, chanh,Mang thai,Giảm dị ứng, mát gan, giải độc,Thảo mộc, the nhẹ,https://picsum.photos/id/41/200/200
+Kombucha Trái Vải,Nước trà trắng lên men, vải, hoa nhài, mật ong,Tiểu đường,Giàu vitamin C, thanh nhiệt, thơm ngọt,Vị ngọt thanh, hương hoa nhài,https://picsum.photos/id/42/200/200
+Kombucha Sơ Ri,Nước trà xanh lên men, sơ ri, chanh, cỏ ngọt,Sỏi thận,Giàu vitamin C tự nhiên, tăng sức đề kháng,Chua mạnh, ngọt hậu,https://picsum.photos/id/43/200/200
+Kombucha Rễ Cam Thảo,Nước trà đen lên men, rễ cam thảo, quế, đinh hương,Cao huyết áp, suy thận,Giảm viêm họng, hỗ trợ tuyến thượng thận,Vị ngọt đậm, cay thơm,https://picsum.photos/id/44/200/200
+Kombucha Dâu Tằm,Nước trà trắng lên men, dâu tằm, táo đỏ, mật ong,Tiểu đường,Giàu sắt, tốt cho máu, bổ thận,Vị ngọt dịu, thơm dâu,https://picsum.photos/id/45/200/200
+Kombucha Cần Tây,Nước trà xanh lên men, cần tây, táo, gừng,Huyết áp thấp, mang thai,Giảm viêm, hỗ trợ tiêu hóa, thanh lọc,Vị rau, the nhẹ,https://picsum.photos/id/46/200/200
+Kombucha Trái Nhàu,Nước trà đen lên men, trái nhàu, mật ong, chanh,Suy gan, thận nặng,Giàu xeronine, hỗ trợ tái tạo tế bào,Vị đắng nhẹ, ngọt hậu,https://picsum.photos/id/47/200/200
+Kombucha Hoa Đậu Biếc,Nước trà xanh lên men, hoa đậu biếc, chanh, mật ong,Mang thai,Trị stress, tốt cho mắt, màu sắc đẹp,Vị chua nhẹ, màu xanh tím,https://picsum.photos/id/48/200/200
+Kombucha Trà Đen Lá Vối,Nước trà đen lên men, lá vối, mật ong, sả,Hạ đường huyết (nếu đang dùng thuốc),Hỗ trợ tiêu hóa, giảm mỡ máu,Chát, thơm mùi lá vối,https://picsum.photos/id/49/200/200
+Kombucha Măng Cụt,Nước trà trắng lên men, măng cụt, vỏ măng cụt, cỏ ngọt,Chống chỉ định với người bị rối loạn đông máu,Giàu xanthone, chống viêm, kháng khuẩn,Vị chua ngọt, the nhẹ,https://picsum.photos/id/50/200/200
+Kombucha Đinh Lăng,Nước trà xanh lên men, lá đinh lăng, táo đỏ, mật ong,Phụ nữ mang thai,Giảm mệt mỏi, tăng cường trí nhớ,Vị hơi đắng, ngọt,https://picsum.photos/id/51/200/200
+Kombucha Lá Mơ Lông,Nước trà đen lên men, lá mơ lông, mật ong, chanh,Phụ nữ mang thai,Giảm đau dạ dày, hỗ trợ tiêu hóa,The nhẹ, vị rau,https://picsum.photos/id/52/200/200
+Kombucha Rau Ngót,Nước trà xanh lên men, rau ngót, mật ong, chanh,Phụ nữ mang thai (nếu dùng nhiều),Giàu chất sắt, thanh nhiệt, bổ máu,Vị ngọt thanh, chua nhẹ,https://picsum.photos/id/53/200/200
+Kombucha Trái Ô Môi,Nước trà trắng lên men, trái ô môi, đường phèn, chanh,Tiểu đường,Giàu vitamin C, giải khát, vị chua dịu,Chua nhẹ, ngọt thanh,https://picsum.photos/id/54/200/200
+Kombucha Củ Năng,Nước trà xanh lên men, củ năng, bạc hà, chanh,Suy thận (nếu dùng nhiều),Mát, lợi tiểu, giải nhiệt,Vị ngọt thanh, mát,https://picsum.photos/id/55/200/200
+Kombucha Rễ Bồ Công Anh,Nước trà đen lên men, rễ bồ công anh, gừng, nghệ,Tắc mật, sỏi mật,Giải độc gan, lợi mật, giảm viêm,Vị đắng, hậu ngọt,https://picsum.photos/id/56/200/200
+Kombucha Lá Ổi Non,Nước trà xanh lên men, lá ổi non, mật ong, chanh,Táo bón,Giảm đường huyết, hỗ trợ tiêu chảy,Chát nhẹ,https://picsum.photos/id/57/200/200
+Kombucha Vỏ Bưởi,Nước trà trắng lên men, vỏ bưởi, sả, mật ong,Trào ngược dạ dày,Giảm căng thẳng, hỗ trợ tiêu hóa,The cay nhẹ, thơm bưởi,https://picsum.photos/id/58/200/200
+Kombucha Hương Nhài,Nước trà xanh lên men, hoa nhài, trà xanh, mật ong,Dị ứng phấn hoa,Thư giãn, giảm lo âu, tốt cho giấc ngủ,Vị trà nhài, ngọt dịu,https://picsum.photos/id/59/200/200
+Kombucha Lá Sen,Nước trà đen lên men, lá sen, táo đỏ, long nhãn,Táo bón,Giảm cân, an thần, cầm máu,Vị chát nhẹ, thơm sen,https://picsum.photos/id/60/200/200
+Kombucha Mạch Nha,Nước trà xanh lên men, mạch nha, gừng, quế,Tiểu đường,Giàu enzyme, hỗ trợ tiêu hóa, ấm bụng,Vị ngọt bùi, cay ấm,https://picsum.photos/id/61/200/200
+Kombucha Trái Sung,Nước trà trắng lên men, trái sung, mật ong, chanh,Sỏi thận,Giàu chất xơ, tốt cho hệ tiêu hóa,Vị ngọt thanh,https://picsum.photos/id/62/200/200
+Kombucha Lá Mật Gấu,Nước trà đen lên men, lá mật gấu, cam thảo, mật ong,Viêm loét dạ dày,Thanh nhiệt, giải độc gan, mát,Vị đắng, ngọt hậu,https://picsum.photos/id/63/200/200
+Kombucha Hạt É,Nước trà xanh lên men, hạt é, chanh, đường phèn,Hẹp thực quản,Giàu chất xơ, giải khát, tốt cho tiêu hóa,Vị chua, sệt,https://picsum.photos/id/64/200/200
+Kombucha Nước Dừa,Nước dừa lên men, cơm dừa non, chanh, bạc hà,Cao kali máu,Giàu điện giải, mát lành, dễ uống,Vị ngọt thanh, mát,https://picsum.photos/id/65/200/200
+Kombucha Cà Rốt,Nước trà xanh lên men, cà rốt, gừng, cam,Tiểu đường,Giàu beta-carotene, tốt cho mắt,Vị ngọt bùi, the nhẹ,https://picsum.photos/id/66/200/200
+Kombucha Củ Dền,Nước trà đen lên men, củ dền, táo, chanh,Sỏi thận,Giàu sắt, hỗ trợ tuần hoàn,Vị ngọt đất, chua nhẹ,https://picsum.photos/id/67/200/200
+Kombucha Bí Xanh,Nước trà trắng lên men, bí xanh, đường phèn, lá dứa,Suy thận,Giải nhiệt, lợi tiểu, thanh lọc,Vị ngọt thanh, thơm lá dứa,https://picsum.photos/id/68/200/200
+Kombucha Rau Diếp Cá,Nước trà xanh lên men, rau diếp cá, chanh, mật ong,Mang thai,Giải độc, kháng viêm, hỗ trợ tiêu hóa,Vị tanh nhẹ, chua,https://picsum.photos/id/69/200/200
+Kombucha Lá Lốt,Nước trà đen lên men, lá lốt, gừng, mật ong,Phụ nữ mang thai,Giảm đau khớp, hỗ trợ tiêu hóa,Vị cay nồng, the,https://picsum.photos/id/70/200/200
+Kombucha Hoa Thiên Lý,Nước trà trắng lên men, hoa thiên lý, mật ong, chanh,An thần, dễ ngủ, giảm căng thẳng,Vị ngọt thanh, thơm hoa,https://picsum.photos/id/71/200/200
+Kombucha Cây Chùm Ngây,Nước trà xanh lên men, lá chùm ngây, chanh, mật ong,Phụ nữ mang thai,Giàu dinh dưỡng, tăng sức đề kháng,Vị hơi đắng, ngọt,https://picsum.photos/id/72/200/200
+Kombucha Trái Mơ,Nước trà đen lên men, mơ, quế, mật ong,Tiểu đường,Giàu vitamin A, tốt cho da, chống oxy hóa,Vị chua ngọt, thơm,https://picsum.photos/id/73/200/200
+Kombucha Lá Moringa,Nước trà xanh lên men, lá moringa, gừng, chanh,Đang dùng thuốc chống đông máu,Giàu sắt, canxi, tăng cường miễn dịch,Vị đắng nhẹ,https://picsum.photos/id/74/200/200
+Kombucha Trái Điều,Nước trà trắng lên men, trái điều, chanh, mật ong,Dị ứng nhựa điều,Giàu vitamin C, hỗ trợ miễn dịch,Vị chua, ngọt,https://picsum.photos/id/75/200/200
+Kombucha Hạt Dẻ,Nước trà đen lên men, hạt dẻ, quế, vani,Dị ứng hạt,Giàu năng lượng, tốt cho tim mạch,Vị bùi, ngọt,https://picsum.photos/id/76/200/200
+Kombucha Củ Sắn Dây,Nước trà xanh lên men, bột sắn dây, chanh, mật ong,Huyết áp thấp,Giải nhiệt, an thần, giảm say nắng,Vị ngọt thanh, sệt,https://picsum.photos/id/77/200/200
+Kombucha Lá Trầu Không,Nước trà đen lên men, lá trầu không, mật ong,Phụ nữ mang thai,Giảm viêm, hỗ trợ tiêu hóa, sát khuẩn,Vị cay nồng,https://picsum.photos/id/78/200/200
+Kombucha Trái Nhót,Nước trà trắng lên men, trái nhót, mật ong, ớt bột,Tiểu đường,Giàu vitamin C, kích thích vị giác,Vị chua cay,https://picsum.photos/id/79/200/200
+Kombucha Rau Răm,Nước trà xanh lên men, rau răm, chanh, mật ong,Mang thai,Giảm đầy hơi, hỗ trợ tiêu hóa,Vị the, chua,https://picsum.photos/id/80/200/200
+Kombucha Cây An Xoa,Nước trà đen lên men, cây an xoa, mật ong, chanh,Suy thận,Giải độc gan, hỗ trợ điều trị viêm gan,Vị đắng nhẹ,https://picsum.photos/id/81/200/200
+Kombucha Xạ Đen,Nước trà xanh lên men, xạ đen, cam thảo, mật ong,Phụ nữ mang thai,Thanh nhiệt, hỗ trợ điều trị u bướu,Vị đắng, ngọt hậu,https://picsum.photos/id/82/200/200
+Kombucha Bạch Quả,Nước trà trắng lên men, bạch quả, táo đỏ, mật ong,Đang dùng thuốc chống đông,Chống oxy hóa, tăng tuần hoàn não,Vị ngọt bùi,https://picsum.photos/id/83/200/200
+Kombucha Hoa Atiso Đỏ,Nước trà đen lên men, atiso đỏ, cam thảo, chanh,Giảm huyết áp,Giải nhiệt, lợi mật, tốt cho gan,Vị chua ngọt,https://picsum.photos/id/84/200/200
+Kombucha Nấm Đông Trùng Hạ Thảo,Nước trà xanh lên men, đông trùng hạ thảo, mật ong, gừng,Tự miễn dịch, nếu dùng thuốc ức chế miễn dịch,Tăng cường sinh lực, chống lão hóa,Vị ngọt nhẹ, thơm,https://picsum.photos/id/85/200/200
+Kombucha Nhân Sâm,Nước trà trắng lên men, nhân sâm Hàn Quốc, mật ong, táo đỏ,Cao huyết áp, mất ngủ,Giảm stress, tăng cường trí nhớ,Vị đắng nhẹ, ngọt,https://picsum.photos/id/86/200/200
+Kombucha Tam Thất,Nước trà đen lên men, tam thất, mật ong, gừng,Phụ nữ mang thai, còn kinh nguyệt,Giảm đau, cầm máu, bổ huyết,Vị hơi đắng,https://picsum.photos/id/87/200/200
+Kombucha Đương Quy,Nước trà xanh lên men, đương quy, táo đỏ, long nhãn,Phụ nữ có thai,Điều hòa kinh nguyệt, bổ máu,Vị ngọt, thơm,https://picsum.photos/id/88/200/200
+Kombucha Hà Thủ Ô,Nước trà đen lên men, hà thủ ô, mật ong, kỷ tử,Đang bị tiêu chảy,Đen tóc, bổ thận, chống lão hóa,Vị hơi chát, ngọt,https://picsum.photos/id/89/200/200
+Kombucha Câu Đằng,Nước trà trắng lên men, câu đằng, táo đỏ, mật ong,Huyết áp thấp,An thần, ổn định huyết áp, giảm đau đầu,Vị ngọt nhẹ,https://picsum.photos/id/90/200/200
+Kombucha Trái Dâu Da,Nước trà xanh lên men, dâu da, chanh, mật ong,Tiểu đường,Giàu vitamin C, chống oxy hóa,Vị chua ngọt,https://picsum.photos/id/91/200/200
+Kombucha Lá Lốt Nướng,Nước trà đen lên men, lá lốt nướng, gừng, mật ong,Phụ nữ mang thai,Giảm đau nhức xương khớp,Vị cay ấm,https://picsum.photos/id/92/200/200
+Kombucha Củ Gai,Nước trà xanh lên men, củ gai, mật ong,Phụ nữ sau sinh, thiếu sữa,Lợi sữa, bổ khí huyết,Vị ngọt thanh,https://picsum.photos/id/93/200/200
+Kombucha Lá Vông,Nước trà trắng lên men, lá vông, mật ong,Phụ nữ mang thai,An thần, giảm stress, dễ ngủ,Vị hơi chát,https://picsum.photos/id/94/200/200
+Kombucha Trái Bứa,Nước trà đen lên men, trái bứa, mật ong, chanh,Tiểu đường,Giàu vitamin C, chua tự nhiên,Vị chua mạnh,https://picsum.photos/id/95/200/200
+Kombucha Măng Tây,Nước trà xanh lên men, măng tây, chanh, mật ong,Sỏi thận,Giàu folate, hỗ trợ thải độc,Vị ngọt thanh,https://picsum.photos/id/96/200/200
+Kombucha Bông Bí,Nước trà trắng lên men, bông bí, mật ong, chanh,Giàu vitamin A, tốt cho mắt,Vị ngọt dịu,https://picsum.photos/id/97/200/200
+Kombucha Trái Chùm Ruột,Nước trà xanh lên men, chùm ruột, mật ong, ớt,Sỏi thận,Giàu vitamin C, giải khát,Vị chua cay,https://picsum.photos/id/98/200/200
+Kombucha Củ Húng Chanh,Nước trà đen lên men, húng chanh, mật ong, chanh,Giảm ho, long đờm, hỗ trợ viêm họng,Vị the mát,https://picsum.photos/id/99/200/200
+Kombucha Lá Bàng,Nước trà xanh lên men, lá bàng non, mật ong,Giảm đường huyết, hỗ trợ tiêu hóa,Vị chát,https://picsum.photos/id/100/200/200

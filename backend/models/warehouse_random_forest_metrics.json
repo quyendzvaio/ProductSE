@@ -1,0 +1,18 @@
+{
+  "model_name": "RandomForestRegressor",
+  "trained_at": "2026-03-28T23:06:37Z",
+  "history_window_months": 3,
+  "training_samples": 210,
+  "validation_samples": 70,
+  "target_months": [
+    "01/2024",
+    "02/2024",
+    "03/2024"
+  ],
+  "priority_strategy": "Duplicate month, revenue, customer_scale and promotion features to bias RandomForest sampling slightly toward these inputs.",
+  "metrics": {
+    "mae": 20.163,
+    "rmse": 24.383,
+    "r2": 0.781
+  }
+}

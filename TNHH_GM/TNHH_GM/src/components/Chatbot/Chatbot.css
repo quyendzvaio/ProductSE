@@ -1,0 +1,116 @@
+.chatbot {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Chiếm hết chiều cao của Launcher */
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    background-color: white;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.header img {
+    width: 45px; /* Thu nhỏ lại một chút cho cân đối */
+    height: 45px;
+    margin-right: 12px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.info h2 {
+    color: #1a1a1a;
+    font-size: 16px; 
+    margin: 0;
+    font-weight: 700;
+}
+
+.info p {
+    color: #22c55e; /* Màu xanh lá cho trạng thái Online */
+    font-size: 12px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.content {
+    flex: 1; /* Tự động lấy hết phần không gian ở giữa */
+    background-color: #f4f7f6;
+    padding: 15px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    scrollbar-width: none;
+    white-space: pre-wrap; /* Lệnh "thần thánh" giúp giữ nguyên dấu \n và bẻ dòng khi chạm lề */
+    word-wrap: break-word;
+}
+
+.content::-webkit-scrollbar {
+    display: none;
+}
+
+.inputbox {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    background-color: white;
+    border-top: 1px solid #f0f0f0;
+}
+
+.inputbox input {
+    flex: 1;
+    border: 1px solid #e5e7eb;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 8px 15px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.inputbox input:focus {
+    border-color: #339933;
+}
+
+.inputbox button {
+    background-color: #339933;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 18px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.inputbox button:hover {
+    background-color: #2b822b;
+}
+
+/* Typing indicator */
+.typing-indicator {
+  display: flex;
+  gap: 3px;
+  padding: 5px;
+}
+.dot {
+  width: 6px;
+  height: 6px;
+  background: #9ca3af;
+  border-radius: 50%;
+  animation: bounce 1.4s infinite ease-in-out both;
+}
+.dot:nth-child(1) { animation-delay: -0.32s; }
+.dot:nth-child(2) { animation-delay: -0.16s; }
+
+@keyframes bounce {
+  0%, 80%, 100% { transform: scale(0); }
+  40% { transform: scale(1.0); }
+}

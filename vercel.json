@@ -1,0 +1,21 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "experimentalServices": {
+    "web": {
+      "entrypoint": "TNHH_GM/TNHH_GM",
+      "routePrefix": "/"
+    },
+    "api": {
+      "entrypoint": "backend/app/main.py",
+      "routePrefix": "/backend",
+      "memory": 2048,
+      "maxDuration": 300,
+      "includeFiles": [
+        "backend/data/**",
+        "backend/models/**",
+        "backend/static/**",
+        "backend/assets/**"
+      ]
+    }
+  }
+}
