@@ -16,4 +16,13 @@ PRODUCT_CATALOG_PATH = PROJECT_DIR / "data" / "kombucha_product_catalog.csv"
 
 load_dotenv(ENV_FILE)
 
-DATABASE_URL = os.getenv("DATABASE_URL", "").strip()
+
+def _normalize_database_url(value: str) -> str:
+    normalized = str(value or "").strip()
+    if normalized.startswith("DATABASE_URL="):
+        normalized = normalized.split("=", 1)[1].strip()
+    return normalized.strip("\"'")
+
+
+DATABASE_URL = _normalize_database_url(os.getenv("DATABASE_URL", ""))
+IS_VERCEL = bool(os.getenv("VERCEL") or os.getenv("VERCEL_ENV"))

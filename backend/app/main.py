@@ -19,6 +19,7 @@ from .schemas import (
     WarehouseSalesResponse,
 )
 from .services.product_catalog_service import (
+    database_error_message,
     get_product,
     initialize_product_catalog,
     list_products,
@@ -112,7 +113,7 @@ def get_products():
         logger.exception("Khong the doc danh muc san pham tu PostgreSQL.")
         raise HTTPException(
             status_code=503,
-            detail="Khong the ket noi co so du lieu san pham.",
+            detail=database_error_message(exc),
         ) from exc
 
 
@@ -124,7 +125,7 @@ def get_product_detail(product_code: str):
         logger.exception("Khong the doc san pham %s tu PostgreSQL.", product_code)
         raise HTTPException(
             status_code=503,
-            detail="Khong the ket noi co so du lieu san pham.",
+            detail=database_error_message(exc),
         ) from exc
 
     if product is None:

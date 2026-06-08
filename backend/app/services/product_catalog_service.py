@@ -4,7 +4,7 @@ from pathlib import Path
 import psycopg
 from psycopg.rows import dict_row
 
-from ..config import DATABASE_URL, PRODUCT_CATALOG_PATH
+from ..config import DATABASE_URL, IS_VERCEL, PRODUCT_CATALOG_PATH
 
 CREATE_TABLE_SQL = """
 CREATE TABLE IF NOT EXISTS product_catalog (
@@ -97,7 +97,42 @@ image_name
 def _connect():
     if not DATABASE_URL:
         raise RuntimeError("DATABASE_URL is not configured.")
-    return psycopg.connect(DATABASE_URL, row_factory=dict_row)
+    if IS_VERCEL and (
+        "localhost" in DATABASE_URL or "127.0.0.1" in DATABASE_URL
+    ):
+        raise RuntimeError("DATABASE_URL points to localhost.")
+    return psycopg.connect(
+        DATABASE_URL,
+        row_factory=dict_row,
+        connect_timeout=10,
+    )
+
+
+def database_error_message(exc: Exception) -> str:
+    message = str(exc).lower()
+    if not DATABASE_URL or "not configured" in message:
+        return "DATABASE_URL chưa được cấu hình cho môi trường Production trên Vercel."
+    if "localhost" in message or "127.0.0.1" in message:
+        return "DATABASE_URL đang trỏ về localhost, Vercel không thể truy cập database này."
+    if "password authentication failed" in message:
+        return "PostgreSQL từ chối đăng nhập. Hãy kiểm tra username và password trong DATABASE_URL."
+    if (
+        "could not translate host name" in message
+        or "name or service not known" in message
+        or "nodename nor servname provided" in message
+    ):
+        return "Không tìm thấy máy chủ PostgreSQL. Hãy kiểm tra hostname trong DATABASE_URL."
+    if "connection refused" in message:
+        return "Máy chủ PostgreSQL từ chối kết nối hoặc không cho phép truy cập từ Vercel."
+    if "timeout" in message or "timed out" in message:
+        return "Kết nối PostgreSQL bị quá thời gian. Hãy dùng connection string pooled của nhà cung cấp."
+    if "ssl" in message:
+        return "Kết nối PostgreSQL yêu cầu SSL. Hãy dùng URL có sslmode=require."
+    if "invalid dsn" in message or "missing \"=\"" in message:
+        return "DATABASE_URL sai định dạng. Ô Value chỉ được chứa URL, không thêm DATABASE_URL= ở đầu."
+    if "relation \"product_catalog\" does not exist" in message:
+        return "Đã kết nối PostgreSQL nhưng bảng sản phẩm chưa được khởi tạo. Hãy redeploy Production."
+    return "Không thể kết nối PostgreSQL. Hãy kiểm tra DATABASE_URL và quyền truy cập database."
 
 
 def _load_catalog_rows(csv_path: Path = PRODUCT_CATALOG_PATH) -> list[dict]:
