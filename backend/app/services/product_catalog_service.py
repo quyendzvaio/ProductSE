@@ -105,6 +105,7 @@ def _connect():
         DATABASE_URL,
         row_factory=dict_row,
         connect_timeout=10,
+        prepare_threshold=None,
     )
 
 
