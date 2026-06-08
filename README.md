@@ -36,7 +36,8 @@ Import or refresh the product catalog manually:
 ```
 
 The backend also creates the table and upserts
-`data/kombucha_product_catalog.csv` automatically on startup.
+`backend/data/kombucha_product_catalog.csv` automatically on startup. The
+top-level `data/kombucha_product_catalog.csv` remains the editable source copy.
 
 ### 2. Backend
 

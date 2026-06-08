@@ -12,7 +12,7 @@ DATA_DIR = BACKEND_DIR / "data"
 MODELS_DIR = BACKEND_DIR / "models"
 STATIC_DIR = BACKEND_DIR / "static"
 ENV_FILE = BACKEND_DIR / ".env"
-PRODUCT_CATALOG_PATH = PROJECT_DIR / "data" / "kombucha_product_catalog.csv"
+PRODUCT_CATALOG_PATH = DATA_DIR / "kombucha_product_catalog.csv"
 
 load_dotenv(ENV_FILE)
 
