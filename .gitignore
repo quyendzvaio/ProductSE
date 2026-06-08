@@ -5,9 +5,14 @@ __pycache__/
 node_modules/
 dist/
 dist-ssr/
+coverage/
+.coverage
+coverage.xml
 
 .env
 .env.*
+!.env.example
+!backend/.env.example
 backend/.env
 
 .DS_Store

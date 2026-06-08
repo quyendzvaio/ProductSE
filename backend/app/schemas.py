@@ -13,6 +13,27 @@ class ChatResponse(BaseModel):
     products: list[dict] = Field(default_factory=list)
 
 
+class ProductCatalogItem(BaseModel):
+    product_code: str
+    product_name: str
+    description: str
+    ingredients: str
+    nutrition: str
+    sizes: str
+    stock_status: str
+    recommended_for: str
+    contraindications: str
+    product_tags: str
+    product_link: str
+    references: str
+    display_order: int
+    image_name: str
+
+
+class ProductCatalogResponse(BaseModel):
+    items: list[ProductCatalogItem] = Field(default_factory=list)
+
+
 class WarehouseSaleItem(BaseModel):
     id: int
     product_name: str

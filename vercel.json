@@ -2,7 +2,7 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "experimentalServices": {
     "web": {
-      "entrypoint": "TNHH_GM/TNHH_GM",
+      "entrypoint": "frontend/frontend",
       "routePrefix": "/"
     },
     "api": {
@@ -11,6 +11,7 @@
       "memory": 2048,
       "maxDuration": 300,
       "includeFiles": [
+        "data/**",
         "backend/data/**",
         "backend/models/**",
         "backend/static/**",

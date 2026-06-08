@@ -1,49 +1,97 @@
-from .llm_client import get_chat_model, get_llm_client
+import re
 
 
-def _build_fallback_response(products):
+MEDICAL_DISCLAIMER = (
+    "Mình chỉ hỗ trợ gợi ý sản phẩm dựa trên thông tin bạn cung cấp, không thay thế "
+    "tư vấn của bác sĩ. Nếu bạn có bệnh nền, đang dùng thuốc, đang mang thai hoặc có "
+    "triệu chứng nghiêm trọng, bạn nên hỏi chuyên gia y tế trước khi sử dụng."
+)
+
+FORBIDDEN_CLAIMS = (
+    "sản phẩm này chữa tiểu đường",
+    "sản phẩm này điều trị mất ngủ",
+    "bạn nên ngừng thuốc",
+    "ngừng thuốc và dùng sản phẩm",
+)
+
+
+def _clean_answer(value: str) -> str:
+    return " ".join(str(value or "").strip().split())
+
+
+def _sanitize_medical_claims(content: str) -> str:
+    sanitized = content
+    for forbidden_claim in FORBIDDEN_CLAIMS:
+        sanitized = re.sub(
+            re.escape(forbidden_claim),
+            "[Nội dung không phù hợp đã được loại bỏ]",
+            sanitized,
+            flags=re.IGNORECASE,
+        )
+    return sanitized
+
+
+def build_profile_summary(profile: dict) -> str:
+    return (
+        "Cảm ơn bạn đã chia sẻ khá kỹ. Để mình nhắc lại xem đã hiểu đúng ý bạn chưa nhé:\n"
+        f"- Về sức khỏe: {_clean_answer(profile.get('health_condition'))}\n"
+        f"- Khẩu vị bạn thích: {_clean_answer(profile.get('preferences'))}\n"
+        f"- Thông tin cần lưu ý: {_clean_answer(profile.get('medical_history'))}\n"
+        f"- Tinh thần gần đây: {_clean_answer(profile.get('mental_state'))}\n"
+        f"- Điều bạn mong muốn ở sản phẩm: {_clean_answer(profile.get('product_goals'))}"
+    )
+
+
+def _product_reason(product: dict) -> str:
+    recommended_for = _clean_answer(product.get("recommended_for"))
+    tags = [
+        tag.strip()
+        for tag in str(product.get("product_tags") or "").split(",")
+        if tag.strip()
+    ]
+    if tag_text := ", ".join(tags[:3]):
+        return f"sản phẩm có các nét vị và đặc điểm khá gần với nhu cầu của bạn: {tag_text}"
+    if recommended_for:
+        return recommended_for
+    return "đặc điểm của sản phẩm khá gần với những gì bạn đang tìm"
+
+
+def generate_recommendation_response(profile: dict, products: list[dict]) -> str:
+    sections = [build_profile_summary(profile)]
+
     if not products:
-        return "Hiá»‡n tÃ´i chÆ°a tÃ¬m Ä‘Æ°á»£c sáº£n pháº©m phÃ¹ há»£p rÃµ rÃ ng. Báº¡n hÃ£y mÃ´ táº£ chi tiáº¿t hÆ¡n vá» tÃ¬nh tráº¡ng sá»©c khá»e, tiá»n sá»­ bá»‡nh vÃ  kháº©u vá»‹ Ä‘á»ƒ tÃ´i gá»£i Ã½ chÃ­nh xÃ¡c hÆ¡n."
-
-    lines = []
-    for product in products[:3]:
-        warning = product.get("Chá»‘ng chá»‰ Ä‘á»‹nh vá»›i") or "KhÃ´ng cÃ³ thÃ´ng tin"
-        lines.append(
-            f"- {product['TÃªn']}: {product['MÃ´ táº£']} "
-            f"(HÆ°Æ¡ng vá»‹: {product['HÆ°Æ¡ng vá»‹']}, Äá»™ phÃ¹ há»£p: {product['Äá»™ tÆ°Æ¡ng Ä‘á»“ng']}%). "
-            f"LÆ°u Ã½ chá»‘ng chá»‰ Ä‘á»‹nh: {warning}."
+        sections.append(
+            "Mình chưa tìm được lựa chọn nào thực sự sát với những gì bạn đang cần. Để "
+            "chắc chắn hơn, bạn nên trao đổi thêm với nhân viên và xem kỹ thành phần, "
+            "lượng đường cùng caffeine trên nhãn nhé."
         )
-    return "Báº¡n cÃ³ thá»ƒ tham kháº£o cÃ¡c sáº£n pháº©m sau:\n" + "\n".join(lines)
-
-
-def generate_recommendation_response(features, products):
-    """
-    features: dict vá»›i cÃ¡c key: mental_state, health_condition, medical_history, taste
-    products: list of dict (tá»« retriever.search)
-    """
-    products_info = "\n".join([
-        f"- {p['TÃªn']}: {p['MÃ´ táº£']} (HÆ°Æ¡ng vá»‹: {p['HÆ°Æ¡ng vá»‹']}, Äá»™ phÃ¹ há»£p: {p['Äá»™ tÆ°Æ¡ng Ä‘á»“ng']}%)\n  Chá»‘ng chá»‰ Ä‘á»‹nh: {p['Chá»‘ng chá»‰ Ä‘á»‹nh vá»›i']}"
-        for p in products
-    ])
-
-    prompt = f"""Báº¡n lÃ  trá»£ lÃ½ tÆ° váº¥n kombucha. Dá»±a trÃªn thÃ´ng tin ngÆ°á»i dÃ¹ng:
-- Tráº¡ng thÃ¡i tinh tháº§n: {', '.join(features.get('mental_state', []))}
-- TÃ¬nh tráº¡ng sá»©c khá»e: {', '.join(features.get('health_condition', []))}
-- Tiá»n sá»­ bá»‡nh ná»n: {', '.join(features.get('medical_history', []))}
-- Kháº©u vá»‹: {', '.join(features.get('taste', []))}
-
-VÃ  danh sÃ¡ch sáº£n pháº©m phÃ¹ há»£p (Ä‘á»™ tÆ°Æ¡ng Ä‘á»“ng >= 60%):
-{products_info}
-
-HÃ£y giá»›i thiá»‡u 2-3 sáº£n pháº©m gá»£i Ã½. Giáº£i thÃ­ch lÃ½ do vÃ¬ sao sáº£n pháº©m Ä‘Ã³ phÃ¹ há»£p vá»›i tÃ¬nh tráº¡ng cá»§a ngÆ°á»i dÃ¹ng. Náº¿u cÃ³ chá»‘ng chá»‰ Ä‘á»‹nh, hÃ£y nháº¯c nhá»Ÿ nháº¹ nhÃ ng. Tráº£ lá»i báº±ng tiáº¿ng Viá»‡t, giá»ng vÄƒn thÃ¢n thiá»‡n, tá»± nhiÃªn.
-"""
-    try:
-        response = get_llm_client().chat.completions.create(
-            model=get_chat_model(),
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.7
+    else:
+        recommendation_lines = [
+            "Mình đã đối chiếu các thông tin trên với danh mục sản phẩm. Hai vị mình "
+            "nghiêng về nhất cho bạn là:"
+        ]
+        for index, product in enumerate(products[:2], start=1):
+            warning_matches = product.get("contraindication_matches") or []
+            warning = ""
+            if warning_matches:
+                warning = (
+                    " Tuy vậy, thông tin bạn chia sẻ có liên quan đến phần cần thận trọng "
+                    f"({', '.join(warning_matches)}). Bạn khoan sử dụng và hỏi bác sĩ hoặc "
+                    "chuyên gia y tế trước nhé."
+                )
+            recommendation_lines.append(
+                f"{index}. {product['product_name']}: {_product_reason(product).rstrip('.')}."
+                f"{warning}"
+            )
+        recommendation_lines.append(
+            "Mình đã để đường dẫn của từng sản phẩm ngay bên dưới để bạn xem thông tin "
+            "chi tiết nhé."
         )
-        return response.choices[0].message.content or _build_fallback_response(products)
-    except Exception as e:
-        print(f"Error in generate_recommendation_response: {e}")
-        return _build_fallback_response(products)
+        sections.append("\n".join(recommendation_lines))
+
+    sections.append(
+        "Mình nhắc nhẹ một chút: kombucha là đồ uống, không phải thuốc và không dùng để "
+        "chữa bệnh, điều trị triệu chứng hay thay thế thuốc bạn đang sử dụng."
+    )
+    sections.append(MEDICAL_DISCLAIMER)
+    return _sanitize_medical_claims("\n\n".join(sections))

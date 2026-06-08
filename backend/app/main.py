@@ -1,4 +1,5 @@
 import logging
+from contextlib import asynccontextmanager
 from uuid import uuid4
 
 from fastapi import FastAPI, HTTPException, Query, WebSocket
@@ -11,9 +12,16 @@ from .config import PRODUCT_IMAGES_DIR, STATIC_DIR
 from .schemas import (
     ChatRequest,
     ChatResponse,
+    ProductCatalogItem,
+    ProductCatalogResponse,
     WarehouseModelTrainResponse,
     WarehousePredictionResponse,
     WarehouseSalesResponse,
+)
+from .services.product_catalog_service import (
+    get_product,
+    initialize_product_catalog,
+    list_products,
 )
 from .services.warehouse_forecast_service import (
     ensure_forecast_model,
@@ -24,7 +32,25 @@ from .services.warehouse_service import load_sales_rows
 from .websocket_handler import create_session, handle_websocket, process_user_message
 
 logger = logging.getLogger(__name__)
-app = FastAPI()
+
+
+@asynccontextmanager
+async def lifespan(_app: FastAPI):
+    try:
+        imported_count = initialize_product_catalog()
+        logger.info("Imported %s products into PostgreSQL.", imported_count)
+    except Exception as exc:
+        logger.warning("Khong the khoi tao danh muc san pham PostgreSQL: %s", exc)
+
+    try:
+        ensure_forecast_model()
+    except Exception as exc:
+        logger.warning("Khong the khoi tao mo hinh du doan nhap hang: %s", exc)
+
+    yield
+
+
+app = FastAPI(lifespan=lifespan)
 app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
 app.mount("/anh", StaticFiles(directory=str(PRODUCT_IMAGES_DIR)), name="anh")
 
@@ -37,14 +63,6 @@ app.add_middleware(
 )
 
 http_sessions = {}
-
-
-@app.on_event("startup")
-async def preload_warehouse_model():
-    try:
-        ensure_forecast_model()
-    except Exception as exc:
-        logger.warning("Khong the khoi tao mo hinh du doan nhap hang: %s", exc)
 
 
 @app.get("/")
@@ -85,6 +103,34 @@ async def chat(request: ChatRequest):
         content=response_payload["content"],
         products=response_payload.get("products", []),
     )
+
+
+@app.get("/api/products", response_model=ProductCatalogResponse)
+def get_products():
+    try:
+        return ProductCatalogResponse(items=list_products())
+    except Exception as exc:
+        logger.exception("Khong the doc danh muc san pham tu PostgreSQL.")
+        raise HTTPException(
+            status_code=503,
+            detail="Khong the ket noi co so du lieu san pham.",
+        ) from exc
+
+
+@app.get("/api/products/{product_code}", response_model=ProductCatalogItem)
+def get_product_detail(product_code: str):
+    try:
+        product = get_product(product_code)
+    except Exception as exc:
+        logger.exception("Khong the doc san pham %s tu PostgreSQL.", product_code)
+        raise HTTPException(
+            status_code=503,
+            detail="Khong the ket noi co so du lieu san pham.",
+        ) from exc
+
+    if product is None:
+        raise HTTPException(status_code=404, detail="San pham khong ton tai.")
+    return ProductCatalogItem(**product)
 
 
 @app.get("/api/warehouse/sales", response_model=WarehouseSalesResponse)

@@ -1,0 +1,79 @@
+.botchat {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.botchat > div:first-child {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 4px;
+}
+
+.botchat img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.botchat > div:first-child p {
+    font-size: 12px;
+    color: #6b7280;
+    margin: 0;
+}
+
+.botContent {
+    background-color: white;
+    color: #1f2937;
+    padding: 10px 14px;
+    border-radius: 0 15px 15px 15px;
+    max-width: 85%;
+    font-size: 14px;
+    line-height: 1.5;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    margin: 0 0 0 38px;
+}
+
+.botContent > p {
+    color: #1f2937;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+    white-space: pre-wrap;
+}
+
+.recommendedLinks {
+    display: grid;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.recommendedLinks a {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 9px 10px;
+    border: 1px solid #bbdfbd;
+    border-radius: 6px;
+    color: #236b27;
+    text-decoration: none;
+    background: #f6fbf6;
+}
+
+.recommendedLinks a:hover {
+    border-color: #339933;
+    background: #eef8ee;
+}
+
+.recommendedLinks strong {
+    font-size: 13px;
+}
+
+.recommendedLinks span {
+    overflow-wrap: anywhere;
+    color: #4b7550;
+    font-size: 11px;
+    text-decoration: underline;
+}
