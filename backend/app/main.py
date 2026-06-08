@@ -8,7 +8,7 @@ from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 import uvicorn
 
-from .config import PRODUCT_IMAGES_DIR, STATIC_DIR
+from .config import STATIC_DIR
 from .schemas import (
     ChatRequest,
     ChatResponse,
@@ -52,7 +52,6 @@ async def lifespan(_app: FastAPI):
 
 app = FastAPI(lifespan=lifespan)
 app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
-app.mount("/anh", StaticFiles(directory=str(PRODUCT_IMAGES_DIR)), name="anh")
 
 app.add_middleware(
     CORSMiddleware,

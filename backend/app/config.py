@@ -11,8 +11,6 @@ PROJECT_DIR = BACKEND_DIR.parent
 DATA_DIR = BACKEND_DIR / "data"
 MODELS_DIR = BACKEND_DIR / "models"
 STATIC_DIR = BACKEND_DIR / "static"
-ASSETS_DIR = BACKEND_DIR / "assets"
-PRODUCT_IMAGES_DIR = ASSETS_DIR / "product-images"
 ENV_FILE = BACKEND_DIR / ".env"
 PRODUCT_CATALOG_PATH = PROJECT_DIR / "data" / "kombucha_product_catalog.csv"
 
