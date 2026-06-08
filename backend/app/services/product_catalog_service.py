@@ -175,20 +175,30 @@ def initialize_product_catalog(csv_path: Path = PRODUCT_CATALOG_PATH) -> int:
     return len(rows)
 
 
-def list_products() -> list[dict]:
+def _read_catalog(query: str, parameters: tuple = ()):
     with _connect() as connection:
         with connection.cursor() as cursor:
-            cursor.execute(
-                f"SELECT {PRODUCT_COLUMNS} FROM product_catalog ORDER BY display_order"
-            )
+            cursor.execute(query, parameters)
             return cursor.fetchall()
 
 
+def _read_catalog_with_initialization(query: str, parameters: tuple = ()):
+    try:
+        return _read_catalog(query, parameters)
+    except psycopg.errors.UndefinedTable:
+        initialize_product_catalog()
+        return _read_catalog(query, parameters)
+
+
+def list_products() -> list[dict]:
+    return _read_catalog_with_initialization(
+        f"SELECT {PRODUCT_COLUMNS} FROM product_catalog ORDER BY display_order"
+    )
+
+
 def get_product(product_code: str) -> dict | None:
-    with _connect() as connection:
-        with connection.cursor() as cursor:
-            cursor.execute(
-                f"SELECT {PRODUCT_COLUMNS} FROM product_catalog WHERE product_code = %s",
-                (product_code,),
-            )
-            return cursor.fetchone()
+    products = _read_catalog_with_initialization(
+        f"SELECT {PRODUCT_COLUMNS} FROM product_catalog WHERE product_code = %s",
+        (product_code,),
+    )
+    return products[0] if products else None

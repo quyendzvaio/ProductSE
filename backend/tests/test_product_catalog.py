@@ -2,7 +2,7 @@ import pytest
 from httpx import ASGITransport, AsyncClient
 
 from backend.app.main import app
-from backend.app.services.product_catalog_service import get_product, list_products
+from backend.app.services.product_catalog_service import _connect, get_product, list_products
 
 
 pytestmark = pytest.mark.integration
@@ -19,6 +19,18 @@ def test_catalog_is_seeded_from_csv(seeded_product_catalog):
     ]
     assert products[0]["product_code"] == "kombucha-vi-gung-tuoi"
     assert products[-1]["product_code"] == "kombucha-vi-dua"
+
+
+def test_catalog_is_initialized_when_table_is_missing():
+    with _connect() as connection:
+        with connection.cursor() as cursor:
+            cursor.execute("DROP TABLE product_catalog")
+        connection.commit()
+
+    products = list_products()
+
+    assert len(products) == 10
+    assert products[0]["product_code"] == "kombucha-vi-gung-tuoi"
 
 
 def test_get_product_returns_database_detail():
