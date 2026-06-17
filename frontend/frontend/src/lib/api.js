@@ -23,6 +23,32 @@ const parseError = async (response, fallbackMessage) => {
   return payload?.detail || fallbackMessage;
 };
 
+export const fetchProducts = async () => {
+  const response = await fetch(`${buildBackendBaseUrl()}/api/products`);
+
+  if (!response.ok) {
+    throw new Error(
+      await parseError(response, `Product API error ${response.status}`),
+    );
+  }
+
+  return response.json();
+};
+
+export const fetchProductDetail = async (productCode) => {
+  const response = await fetch(
+    `${buildBackendBaseUrl()}/api/products/${encodeURIComponent(productCode)}`,
+  );
+
+  if (!response.ok) {
+    throw new Error(
+      await parseError(response, `Product detail API error ${response.status}`),
+    );
+  }
+
+  return response.json();
+};
+
 export const fetchWarehouseSales = async () => {
   const response = await fetch(`${buildBackendBaseUrl()}/api/warehouse/sales`);
 
