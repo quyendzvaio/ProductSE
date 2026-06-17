@@ -9,45 +9,6 @@ const buildBackendBaseUrl = () => {
       .replace(/\/$/, "");
   }
 
-<<<<<<< HEAD:frontend/frontend/src/lib/api.js
-  const protocol = window.location.protocol;
-  const hostname = window.location.hostname || "localhost";
-  const isLocalDevelopment = hostname === "localhost" || hostname === "127.0.0.1";
-  return isLocalDevelopment
-    ? `${protocol}//${hostname}:8000`
-    : `${window.location.origin}/backend`;
-};
-
-const parseError = async (response, fallbackMessage) => {
-  const payload = await response.json().catch(() => null);
-  return payload?.detail || fallbackMessage;
-};
-
-export const fetchProducts = async () => {
-  const response = await fetch(`${buildBackendBaseUrl()}/api/products`);
-
-  if (!response.ok) {
-    throw new Error(
-      await parseError(response, `Product API error ${response.status}`),
-    );
-  }
-
-  return response.json();
-};
-
-export const fetchProductDetail = async (productCode) => {
-  const response = await fetch(
-    `${buildBackendBaseUrl()}/api/products/${encodeURIComponent(productCode)}`,
-  );
-
-  if (!response.ok) {
-    throw new Error(
-      await parseError(response, `Product detail API error ${response.status}`),
-    );
-  }
-
-  return response.json();
-=======
   // Production (Vercel): API chạy cùng domain với prefix /backend
   if (import.meta.env.PROD) {
     return "/backend";
@@ -55,14 +16,20 @@ export const fetchProductDetail = async (productCode) => {
 
   // Development: local FastAPI server
   return "http://localhost:8000";
->>>>>>> b5cf77a (fix bug not display database in fe):TNHH_GM/TNHH_GM/src/lib/api.js
+};
+
+const parseError = async (response, fallbackMessage) => {
+  const payload = await response.json().catch(() => null);
+  return payload?.detail || fallbackMessage;
 };
 
 export const fetchWarehouseSales = async () => {
   const response = await fetch(`${buildBackendBaseUrl()}/api/warehouse/sales`);
 
   if (!response.ok) {
-    throw new Error(`Warehouse API error ${response.status}`);
+    throw new Error(
+      await parseError(response, `Warehouse API error ${response.status}`),
+    );
   }
 
   return response.json();
