@@ -9,6 +9,7 @@ const buildBackendBaseUrl = () => {
       .replace(/\/$/, "");
   }
 
+<<<<<<< HEAD:frontend/frontend/src/lib/api.js
   const protocol = window.location.protocol;
   const hostname = window.location.hostname || "localhost";
   const isLocalDevelopment = hostname === "localhost" || hostname === "127.0.0.1";
@@ -46,6 +47,15 @@ export const fetchProductDetail = async (productCode) => {
   }
 
   return response.json();
+=======
+  // Production (Vercel): API chạy cùng domain với prefix /backend
+  if (import.meta.env.PROD) {
+    return "/backend";
+  }
+
+  // Development: local FastAPI server
+  return "http://localhost:8000";
+>>>>>>> b5cf77a (fix bug not display database in fe):TNHH_GM/TNHH_GM/src/lib/api.js
 };
 
 export const fetchWarehouseSales = async () => {
